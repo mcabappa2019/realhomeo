@@ -39,19 +39,19 @@ const Footer = () => {
       <div className="tm-site-footer">
         <div className="container">
           <div className="row row-sm-reverce">
-            <div className="col-md-7 col-lg-8">
+            <div className="col-md-6 col-lg-6">
               <p className="tm-copyright">
-                Copyright © 2018 TRUSTLIFE. Designed by thememarch{' '}
+                Copyright © 2022 TIRH | Designed by bdsProf.{' '}
               </p>
             </div>
-            <div className="col-md-5 col-lg-4">
+            <div className="col-md-6 col-lg-6">
               <div className="tm-footer-hotline">
                 <div className="tm-footer-hotline-in">
                   <div className="tm-phone-icon">
-                    <i className="fa fa-mobile"></i>
+                    <img src="/assets/img/iso-9001-2015.png" alt="" />
                   </div>
-                  <h3>Toll Free</h3>
-                  <p>1-800-915-6270</p>
+                  <h3>THE INSTITUTE OF</h3>
+                  <h2>REAL HOMEOPATHY</h2>
                 </div>
               </div>
               {/* <img src="/assets/img/iso-9001-2015.png" alt="" /> */}

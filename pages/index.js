@@ -7,24 +7,20 @@ const index = () => {
         <div className="container">
           <div className="slider-text">
             <h1 className="tm-headline letters tm-rotate-text">
-              world best <br />
-              homeopathy Treatment <br />
+              world best <br /> homeopathy Treatment <br />
             </h1>
             <h1 className="my-2">
               <span className="highlight">
-                to inactive harmful group of genes
-                <br />
+                to inactive harmful group of genes <br />
               </span>
             </h1>
             <h1>causing suffering</h1>
             <div className="empty-space col-sm-b20 col-xs-b10"></div>
             <p>
               Perfect treatment of complex mental state,
-              <br />
-              painful physical sufferings from different results of disease,{' '}
-              <br />
-              such as <b>hypertension, diabetes, chronic renal failure, </b>
-              <br />
+              <br /> painful physical sufferings from different results of
+              disease, <br /> such as
+              <b> hypertension, diabetes, chronic renal failure, </b> <br />
               <b>cardiac problem, liver problem, problem in the brain, etc.</b>
             </p>
             <div className="empty-space col-md-b55 col-sm-b35 col-xs-b25"></div>
@@ -38,7 +34,11 @@ const index = () => {
           <img
             src="/assets/img/slide-01.jpg"
             alt="slide-01"
-            style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+            }}
           />
           {/* <img src="/assets/img/slide-02.jpg" alt="slide-02" /> */}
           {/* <img src="/assets/img/slide-03.jpg" alt="slide-03" /> */}
@@ -50,7 +50,6 @@ const index = () => {
           className="sweet-shap"
         />
       </section>
-
       <section className="tm-fun-fact-wrap tm-bg">
         <div className="container">
           <div className="row">
@@ -74,68 +73,103 @@ const index = () => {
           </div>
         </div>
       </section>
-
-      <section>
+      <section className="courses">
         <div className="empty-space col-md-b100 col-xs-b70"></div>
         <div className="tm-section-heading text-center">
           <h2>
-            <b>Real Homeopathy Learning Program</b>
+            <b>
+              Real Homeopathy{' '}
+              <span className="highlight">Learning Program</span>
+            </b>
           </h2>
-          <div className="tm-section-seperator">
-            <span></span>
-          </div>
+
           <div className="empty-space col-md-b60 col-xs-b40"></div>
         </div>
+
         <div className="container">
-          <div className="row">
-            <div className="col-lg-5 md-6">
-              <div className="empty-space col-md-b0 col-xs-b30"></div>
-              <div className="tm-icon-box">
-                <span className="tm-icon">
-                  <i className="icofont icofont-users-social"></i>
-                </span>
-                <h2 className="tm-icon-box-title">For All Students</h2>
-                <p className="tm-icon-box-text">
-                  DHP & M. (Diploma in Homoeopathic Philosophy and Medicine.)
-                  By- Dr. Shyamal Kumar Das Duration- 2 years
-                </p>
-              </div>
+          <div className="row justify-content-center">
+            <div className="col-lg-3 md-6 text-center">
+              <img src="/assets/img/iso-medel.png" alt="" /> <br />
             </div>
-            <div className="col-lg-2 md-6 text-center">
+            <div className="col-lg-4 md-6 text-center">
               <img src="/assets/img/Logo_RH.png" alt="" /> <br />
-              <div className="tm-about-btn mt-5">
+            </div>
+            <div className="col-lg-3 md-6 text-center">
+              <img src="/assets/img/iso-medel.png" alt="" /> <br />
+            </div>
+          </div>
+          {/* <!-- .row --> */}
+        </div>
+
+        <div className="courses-container ">
+          <div className="course">
+            <div className="course-preview">
+              <h5>Course For</h5>
+              <h4 className="text-uppercase">All Students</h4>
+              <span className="d-flex justify-content-between mt-5">
+                <h5>Duration:</h5>
+                <h5>2 Years</h5>
+              </span>
+              <span className="d-flex justify-content-between mt-1">
+                <h5>Mode:</h5>
+                <h5>OFFLINE</h5>
+              </span>
+              <span className="d-flex justify-content-between my-1">
+                <h5>Version:</h5>
+                <h5>English & Hindi</h5>
+              </span>
+            </div>
+            <div className="course-info">
+              <h6 className="text-end">Trusted by 1100 Students</h6>
+              <h2>
+                <b>DHP & M.</b>
+              </h2>
+              <h4>Diploma in Homoeopathic Philosophy and Medicine.</h4>
+
+              <div className="tm-about-btn details-btn">
                 <a href="#" className="tm-btn1">
-                  READ MORE
+                  APPLY NOW
                 </a>
               </div>
             </div>
-            <div className="col-lg-5 md-6">
-              <div className="empty-space col-md-b0 col-xs-b30"></div>
-              <div className="tm-icon-box">
-                <span className="tm-icon">
-                  <i className="icofont icofont-doctor"></i>
-                </span>
-                <h2 className="tm-icon-box-title">
-                  For Registered Physicians only
-                </h2>
-                <p className="tm-icon-box-text">
-                  ACRH (Advanced Course of Real Homoeopathy.) Curriculum For
-                  Registered Physicians ONLY. Version: English & Hindi Course
-                  duration: Six Months. (24 Weeks).(e-learning program)
-                </p>
+          </div>
+          <div className="course">
+            <div className="course-preview">
+              <h5>Course For</h5>
+              <h4 className="text-uppercase">Registered Physicians</h4>
+              <span className="d-flex justify-content-between mt-5">
+                <h5>Duration:</h5>
+                <h5>24 Weeks</h5>
+              </span>
+              <span className="d-flex justify-content-between mt-1">
+                <h5>Mode:</h5>
+                <h5>ONLINE</h5>
+              </span>
+              <span className="d-flex justify-content-between my-1 ">
+                <h5>Version:</h5>
+                <h5>English & Hindi</h5>
+              </span>
+            </div>
+            <div className="course-info">
+              <h6 className="text-end">Trusted by 450 Doctors</h6>
+              <h2>
+                <b>ACRH</b>
+              </h2>
+              <h4>Advanced Course of Real Homoeopathy.</h4>
+              <div className="tm-about-btn details-btn">
+                <a href="#" className="tm-btn1">
+                  APPLY NOW
+                </a>
               </div>
             </div>
           </div>
-
-          {/* <!-- .row --> */}
         </div>
       </section>
-
       {/* <!-- Start Fun Fact Section --> */}
-      <div className="empty-space col-md-b100 col-xs-b70"></div>
+      {/* <div className="empty-space col-md-b100 col-xs-b70"></div>
       <div className="tm-section-heading text-center">
         <div className="empty-space col-md-b60 col-xs-b40"></div>
-      </div>
+      </div> */}
       <section className="tm-fun-fact-wrap students tm-bg">
         <div className="empty-space col-md-b100 col-xs-b70"></div>
         <div className="container">
@@ -147,8 +181,7 @@ const index = () => {
                   data-wow-delay="0.2s"
                   data-wow-duration="2s"
                 ></i>
-                <h2 className="tm-counter">25</h2>
-                <h3>Years of experience</h3>
+                <h2 className="tm-counter">40+</h2> <h3>Years of experience</h3>
               </div>
               <div className="empty-space col-xs-b30"></div>
             </div>
@@ -159,8 +192,7 @@ const index = () => {
                   data-wow-delay="0.4s"
                   data-wow-duration="2s"
                 ></i>
-                <h2 className="tm-counter">2500</h2>
-                <h3>Happy Patients</h3>
+                <h2 className="tm-counter">9500+</h2> <h3>Happy Patients</h3>
               </div>
               <div className="empty-space col-xs-b30"></div>
             </div>
@@ -171,8 +203,7 @@ const index = () => {
                   data-wow-delay="0.6s"
                   data-wow-duration="2s"
                 ></i>
-                <h2 className="tm-counter">150</h2>
-                <h3>Number of Doctors</h3>
+                <h2 className="tm-counter">1500+</h2> <h3>Happy Students</h3>
               </div>
               <div className="empty-space col-xs-b30"></div>
             </div>
@@ -183,8 +214,7 @@ const index = () => {
                   data-wow-delay="0.8s"
                   data-wow-duration="2s"
                 ></i>
-                <h2 className="tm-counter">250</h2>
-                <h3>Number of Staffs</h3>
+                <h2 className="tm-counter">45+</h2> <h3>Our Team Size</h3>
               </div>
               <div className="empty-space col-xs-b30"></div>
             </div>
@@ -193,20 +223,22 @@ const index = () => {
         <div className="empty-space col-lg-b70 col-xs-b40"></div>
       </section>
       {/* <!-- End Fun Fact Section --> */}
-
       {/* <!-- Start Team Member --> */}
       <section id="doctor">
         <div className="empty-space col-md-b100 col-xs-b70"></div>
         <div className="tm-section-heading text-center">
-          <h2>What Experts SAY about real homeopathy</h2>
-          <div className="tm-section-seperator">
+          <h2>
+            <span className="highlight">What Experts SAY</span> about real
+            homeopathy
+          </h2>
+          {/* <div className="tm-section-seperator">
             <span></span>
-          </div>
+          </div> */}
           <div className="empty-space col-md-b60 col-xs-b40"></div>
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-lg-12">
+            <div className="col-lg-8 offset-lg-2">
               <div className="">
                 <div className="tm-team-member d-flex my-3">
                   <div className="tm-member-hover">
@@ -243,9 +275,22 @@ const index = () => {
                   </div>
                   <div className="tm-member-meta tm-gray-bg text-center w-100 ">
                     <h3 className="tm-member-name">
-                      <a href="#">Dr. Willie Crowley</a>
+                      <a href="#">Prof. Dr. Achal Sing</a>
                     </h3>
-                    <span className="tm-member-speciality">Cardiologist</span>
+                    <span className="tm-member-speciality">
+                      MD DM Cardiologist, USA
+                    </span>
+                    <p className="mt-3">
+                      Real homeopathy is very unique that it goes to the very
+                      root of Deeper mind and consciousness and Genetics to
+                      address the causation of disease at Gene, Energy and
+                      consciousness levels. High potency Homeopathy remedies
+                      cause Deeper healing of a patient’s symptoms and diseases.
+                      The system is so deep that not only present symptoms are
+                      healed but Life long problems and even Genetic
+                      transmission of diseases from Previous multiple
+                      generations is also healed.
+                    </p>
                   </div>
                 </div>
                 {/* <!-- .tm-team-member --> */}
@@ -284,9 +329,22 @@ const index = () => {
                   </div>
                   <div className="tm-member-meta tm-gray-bg text-center w-100">
                     <h3 className="tm-member-name">
-                      <a href="#">Dr. Jay Swanson</a>
+                      <a href="#">Prof. Dr. Anil Sen</a>
                     </h3>
-                    <span className="tm-member-speciality">Gynecologist</span>
+                    <span className="tm-member-speciality">
+                      MD DM Neurologist & Holistic physician - USA
+                    </span>
+                    <p className="mt-3">
+                      Real homeopathy is very unique that it goes to the very
+                      root of Deeper mind and consciousness and Genetics to
+                      address the causation of disease at Gene, Energy and
+                      consciousness levels. High potency Homeopathy remedies
+                      cause Deeper healing of a patient’s symptoms and diseases.
+                      The system is so deep that not only present symptoms are
+                      healed but Life long problems and even Genetic
+                      transmission of diseases from Previous multiple
+                      generations is also healed.
+                    </p>
                   </div>
                 </div>
                 {/* <!-- .tm-team-member --> */}
@@ -328,6 +386,17 @@ const index = () => {
                       <a href="#">Dr. Alex Abbott</a>
                     </h3>
                     <span className="tm-member-speciality">Neurology</span>
+                    <p className="mt-3">
+                      Real homeopathy is very unique that it goes to the very
+                      root of Deeper mind and consciousness and Genetics to
+                      address the causation of disease at Gene, Energy and
+                      consciousness levels. High potency Homeopathy remedies
+                      cause Deeper healing of a patient’s symptoms and diseases.
+                      The system is so deep that not only present symptoms are
+                      healed but Life long problems and even Genetic
+                      transmission of diseases from Previous multiple
+                      generations is also healed.
+                    </p>
                   </div>
                 </div>
                 {/* <!-- .tm-team-member --> */}
@@ -369,173 +438,19 @@ const index = () => {
                       <a href="#">Dr. Kay Conley</a>
                     </h3>
                     <span className="tm-member-speciality">Diagnosis</span>
+                    <p className="mt-3">
+                      Real homeopathy is very unique that it goes to the very
+                      root of Deeper mind and consciousness and Genetics to
+                      address the causation of disease at Gene, Energy and
+                      consciousness levels. High potency Homeopathy remedies
+                      cause Deeper healing of a patient’s symptoms and diseases.
+                      The system is so deep that not only present symptoms are
+                      healed but Life long problems and even Genetic
+                      transmission of diseases from Previous multiple
+                      generations is also healed.
+                    </p>
                   </div>
                 </div>
-                {/* <!-- .tm-team-member --> */}
-                <div className="tm-team-member d-flex my-3">
-                  <div className="tm-member-hover">
-                    <a href="#" className="tm-member-thumb">
-                      <img src="/assets/img/doctor-01.jpg" alt="" />
-                    </a>
-                    <div className="tm-member-social-btn-wrap">
-                      <div className="tm-member-socila-btn">
-                        <a href="#" className="tm-social-btn white">
-                          <i className="fa fa-facebook-square"></i>
-                          <i className="fa fa-facebook-square"></i>
-                        </a>
-                      </div>
-                      <div className="tm-member-socila-btn">
-                        <a href="#" className="tm-social-btn white">
-                          <i className="fa fa-twitter-square"></i>
-                          <i className="fa fa-twitter-square"></i>
-                        </a>
-                      </div>
-                      <div className="tm-member-socila-btn">
-                        <a href="#" className="tm-social-btn white">
-                          <i className="fa fa-linkedin-square"></i>
-                          <i className="fa fa-linkedin-square"></i>
-                        </a>
-                      </div>
-                      <div className="tm-member-socila-btn">
-                        <a href="#" className="tm-social-btn white">
-                          <i className="fa fa-skype"></i>
-                          <i className="fa fa-skype"></i>
-                        </a>
-                      </div>
-                    </div>
-                    {/* <!-- .tm-member-social-btn-wrap --> */}
-                  </div>
-                  <div className="tm-member-meta tm-gray-bg text-center w-100">
-                    <h3 className="tm-member-name">
-                      <a href="#">Dr. Willie Crowley</a>
-                    </h3>
-                    <span className="tm-member-speciality">Cardiologist</span>
-                  </div>
-                </div>
-                {/* <!-- .tm-team-member --> */}
-                <div className="tm-team-member d-flex my-3">
-                  <div className="tm-member-hover">
-                    <a href="#" className="tm-member-thumb">
-                      <img src="/assets/img/doctor-02.jpg" alt="" />
-                    </a>
-                    <div className="tm-member-social-btn-wrap">
-                      <div className="tm-member-socila-btn">
-                        <a href="#" className="tm-social-btn white">
-                          <i className="fa fa-facebook-square"></i>
-                          <i className="fa fa-facebook-square"></i>
-                        </a>
-                      </div>
-                      <div className="tm-member-socila-btn">
-                        <a href="#" className="tm-social-btn white">
-                          <i className="fa fa-twitter-square"></i>
-                          <i className="fa fa-twitter-square"></i>
-                        </a>
-                      </div>
-                      <div className="tm-member-socila-btn">
-                        <a href="#" className="tm-social-btn white">
-                          <i className="fa fa-linkedin-square"></i>
-                          <i className="fa fa-linkedin-square"></i>
-                        </a>
-                      </div>
-                      <div className="tm-member-socila-btn">
-                        <a href="#" className="tm-social-btn white">
-                          <i className="fa fa-skype"></i>
-                          <i className="fa fa-skype"></i>
-                        </a>
-                      </div>
-                    </div>
-                    {/* <!-- .tm-member-social-btn-wrap --> */}
-                  </div>
-                  <div className="tm-member-meta tm-gray-bg text-center w-100">
-                    <h3 className="tm-member-name">
-                      <a href="#">Dr. Jay Swanson</a>
-                    </h3>
-                    <span className="tm-member-speciality">Gynecologist</span>
-                  </div>
-                </div>
-                {/* <!-- .tm-team-member --> */}
-                <div className="tm-team-member d-flex my-3">
-                  <div className="tm-member-hover">
-                    <a href="#" className="tm-member-thumb">
-                      <img src="/assets/img/doctor-03.jpg" alt="" />
-                    </a>
-                    <div className="tm-member-social-btn-wrap">
-                      <div className="tm-member-socila-btn">
-                        <a href="#" className="tm-social-btn white">
-                          <i className="fa fa-facebook-square"></i>
-                          <i className="fa fa-facebook-square"></i>
-                        </a>
-                      </div>
-                      <div className="tm-member-socila-btn">
-                        <a href="#" className="tm-social-btn white">
-                          <i className="fa fa-twitter-square"></i>
-                          <i className="fa fa-twitter-square"></i>
-                        </a>
-                      </div>
-                      <div className="tm-member-socila-btn">
-                        <a href="#" className="tm-social-btn white">
-                          <i className="fa fa-linkedin-square"></i>
-                          <i className="fa fa-linkedin-square"></i>
-                        </a>
-                      </div>
-                      <div className="tm-member-socila-btn">
-                        <a href="#" className="tm-social-btn white">
-                          <i className="fa fa-skype"></i>
-                          <i className="fa fa-skype"></i>
-                        </a>
-                      </div>
-                    </div>
-                    {/* <!-- .tm-member-social-btn-wrap --> */}
-                  </div>
-                  <div className="tm-member-meta tm-gray-bg text-center w-100">
-                    <h3 className="tm-member-name">
-                      <a href="#">Dr. Alex Abbott</a>
-                    </h3>
-                    <span className="tm-member-speciality">Neurology</span>
-                  </div>
-                </div>
-                {/* <!-- .tm-team-member --> */}
-                <div className="tm-team-member d-flex my-3">
-                  <div className="tm-member-hover">
-                    <a href="#" className="tm-member-thumb">
-                      <img src="assets/img/doctor-04.jpg" alt="" />
-                    </a>
-                    <div className="tm-member-social-btn-wrap">
-                      <div className="tm-member-socila-btn">
-                        <a href="#" className="tm-social-btn white">
-                          <i className="fa fa-facebook-square"></i>
-                          <i className="fa fa-facebook-square"></i>
-                        </a>
-                      </div>
-                      <div className="tm-member-socila-btn">
-                        <a href="#" className="tm-social-btn white">
-                          <i className="fa fa-twitter-square"></i>
-                          <i className="fa fa-twitter-square"></i>
-                        </a>
-                      </div>
-                      <div className="tm-member-socila-btn">
-                        <a href="#" className="tm-social-btn white">
-                          <i className="fa fa-linkedin-square"></i>
-                          <i className="fa fa-linkedin-square"></i>
-                        </a>
-                      </div>
-                      <div className="tm-member-socila-btn">
-                        <a href="#" className="tm-social-btn white">
-                          <i className="fa fa-skype"></i>
-                          <i className="fa fa-skype"></i>
-                        </a>
-                      </div>
-                    </div>
-                    {/* <!-- .tm-member-social-btn-wrap --> */}
-                  </div>
-                  <div className="tm-member-meta tm-gray-bg text-center w-100">
-                    <h3 className="tm-member-name">
-                      <a href="#">Dr. Kay Conley</a>
-                    </h3>
-                    <span className="tm-member-speciality">Diagnosis</span>
-                  </div>
-                </div>
-                {/* <!-- .tm-team-member --> */}
               </div>
               {/* <!-- .member-carousel --> */}
             </div>
@@ -545,114 +460,16 @@ const index = () => {
       </section>
       {/* <!-- End Team Member --> */}
 
-      {/* <!-- Start About Secton --> */}
-      <section id="about">
-        <div className="empty-space col-md-b100 col-xs-b70"></div>
-        <div className="tm-section-heading text-center">
-          <h2>What is Real Homeo</h2>
-          <div className="tm-section-seperator">
-            <span></span>
-          </div>
-          <div className="empty-space col-md-b60 col-xs-b40"></div>
-        </div>
-        <div className="tm-relative">
-          <div className="tm-half-section-bg left">
-            <img src="/assets/img/about-hafl-bg.jpg" alt="about hafl bg" />
-          </div>
-          <div className="empty-space col-xs-b60"></div>
-          <div className="container">
-            <div className="row row-md-reverce">
-              <div className="col-lg-5">
-                <div className="tm-shedule-wrap">
-                  <div className="tm-shedule">
-                    <h3 className="tm-shedule-title">Opening Hours</h3>
-                    <ul className="tm-shedule-list">
-                      <li>
-                        <span>Monday - Friday</span>
-                        <span>8:00 - 18:00</span>
-                      </li>
-                      <li>
-                        <span>Saturday</span>
-                        <span>9.00 - 18.00</span>
-                      </li>
-                      <li>
-                        <span>Sunday</span>
-                        <span>Closed</span>
-                      </li>
-                    </ul>
-                  </div>
-                  {/* <!-- .tm-shedule --> */}
-                  <div className="empty-space col-md-b40 col-xs-b30"></div>
-                  <div className="tm-shedule">
-                    <h3 className="tm-shedule-title">Visitors Hours</h3>
-                    <ul className="tm-shedule-list">
-                      <li>
-                        <span>Monday - Friday</span>
-                        <span>8:00 - 18:00</span>
-                      </li>
-                      <li>
-                        <span>Saturday</span>
-                        <span>9.00 - 18.00</span>
-                      </li>
-                      <li>
-                        <span>Sunday</span>
-                        <span>Closed</span>
-                      </li>
-                    </ul>
-                  </div>
-                  {/* <!-- .tm-shedule --> */}
-                </div>
-              </div>
-              {/* <!-- .col --> */}
-              <div className="col-lg-7">
-                <div className="empty-space col-md-b30 col-xs-b0"></div>
-                <div className="tm-about-wrap tm-hf-hide">
-                  <div
-                    className="tm-about tm-gray-bg wow fadeInRight"
-                    data-wow-duration="1s"
-                    data-wow-delay="0.1s"
-                  >
-                    <h3 className="tm-about-title">
-                      Why People Choose Our <span>Hospital</span>?
-                    </h3>
-                    <div className="tm-about-text">
-                      <p>
-                        We provide the best service all over the country. People
-                        chose our hospital because of the following advantages.{' '}
-                      </p>
-                      <p>
-                        We have a list of associated doctors, Every Department
-                        Specialists are availability, Available ambulance
-                        facilities, OT/ICU, trauma care is best as always, Our
-                        pharmacy is opend 24/7, Our cost is affordable.{' '}
-                      </p>
-                    </div>
-                    <div className="empty-space col-xs-b25"></div>
-                    <div className="tm-about-btn">
-                      <a href="#" className="tm-btn1">
-                        READ MORE
-                      </a>
-                    </div>
-                  </div>
-                </div>
-                <div className="empty-space col-xs-b30"></div>
-              </div>
-              {/* <!-- .col --> */}
-            </div>
-          </div>
-          <div className="empty-space col-xs-b60"></div>
-        </div>
-      </section>
-      {/* <!-- End About Secton --> */}
-
       {/* <!-- Start Department Section --> */}
       <section className="tm-gray-bg" id="department">
         <div className="empty-space col-md-b100 col-xs-b70"></div>
         <div className="tm-section-heading text-center">
-          <h2>Success Stories</h2>
-          <div className="tm-section-seperator">
+          <h2>
+            <span className="highlight">Our Success</span> Stories
+          </h2>
+          {/* <div className="tm-section-seperator">
             <span></span>
-          </div>
+          </div> */}
           <div className="empty-space col-md-b60 col-xs-b40"></div>
         </div>
         <div className="container">
@@ -675,7 +492,7 @@ const index = () => {
                   <i className="icofont icofont-lungs"></i>LUNG
                 </li>
                 <li>
-                  <i className="icofont icofont-dna"></i>GEBETIC DISORDER
+                  <i className="icofont icofont-dna"></i>GENETIC DISORDER
                 </li>
               </ul>
               {/* <!-- .tabs --> */}
@@ -686,7 +503,7 @@ const index = () => {
                 <div className="row">
                   <div className="col-lg-6">
                     <div className="tm-dept-img">
-                      <img src="/assets/img/1.dental.jpg" alt="" />
+                      <img src="/assets/img/success-story-img.png" alt="" />
                     </div>
                   </div>
                   {/* <!-- .col --> */}
@@ -694,11 +511,11 @@ const index = () => {
                     <div className="tm-dept-details-wrap">
                       <div className="tm-about tm-gray-bg">
                         <h3 className="tm-about-title">
-                          Welcome to our <span>DENTAL CARE</span>
+                          The world changing findings
                         </h3>
                         <div className="tm-about-text">
                           <p>
-                            More than 15 years, The Dental Health Care Center
+                            More than 40 years, The Dental Health Care Center
                             has practiced with one goal: to ensure our patients
                             achieve a high level of oral health with as much
                             comfort as possible.
@@ -781,7 +598,7 @@ const index = () => {
                             after your surgery. But you will need support for
                             walking while your leg heals. Trustlife may be a
                             good choice after a leg injury or surgery if you
-                            only need a little help with balance and stability.{' '}
+                            only need a little help with balance and stability.
                           </p>
                           <p>
                             Crutches are also useful when your leg is only a
@@ -864,7 +681,7 @@ const index = () => {
                           <p>
                             Today, our expertise continues to be pulmonary
                             disease management and providing quality treatment
-                            based on the latest protocols.{' '}
+                            based on the latest protocols.
                           </p>
                         </div>
                         <div className="empty-space col-xs-b25"></div>
@@ -928,158 +745,90 @@ const index = () => {
       </section>
       {/* <!-- End Department Section --> */}
 
-      {/* <!-- Start Appointment Section --> */}
-      <section className="tm-relative" id="appointment">
-        <div className="tm-half-section-bg right">
-          <img src="/assets/img/appointment-bg.jpg" alt="about hafl bg" />
+      {/* <!-- Start Testimonial Section --> */}
+      <section>
+        <div className="empty-space col-md-b100 col-xs-b70"></div>
+        <div className="tm-section-heading text-center">
+          <h2>
+            What <span className="highlight">Patients says</span> about us
+          </h2>
+
+          <div className="empty-space col-md-b60 col-xs-b40"></div>
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-lg-7 tm-hf-hide">
-              <div className="empty-space col-md-b0 col-xs-b70"></div>
-              <div
-                className="tm-appointment-heading tm-gray-bg wow fadeInLeft"
-                data-wow-duration="1s"
-                data-wow-delay="0.1s"
-              >
-                <div className="tm-section-heading text-center">
-                  <h2>MAKE AN APPOINTMENT</h2>
-                  <div className="tm-section-seperator">
-                    <span></span>
+            <div className="col-lg-8 offset-lg-2">
+              <div className="owl-carousel tm-testimonial tm-testimonial-1 tm-dots1">
+                <div className="tm-single-testimonial">
+                  <div className="tm-testimonial-thumb">
+                    <img src="/assets/img/test-01.jpg" alt="" />
                   </div>
-                  <p>
-                    If you wont to make an appointment with any specialist just
-                    fill up the form with valid data and we will contact you via
-                    phone for confirmation.
-                  </p>
+                  <div className="tm-testimonial-text">
+                    <i className="fa fa-quote-right"></i>
+                    <blockquote>
+                      They saved my life. They didn&apos; t give up, and they
+                      pushed for a treatment that would put me in remission.
+                      They continue to have some of the best staffing I&apos; ve
+                      ever had.
+                    </blockquote>
+                    <div className="tm-testimonial-meta">
+                      <h3>Alex Bieniek</h3> <span>Patients</span>
+                    </div>
+                  </div>
                 </div>
+                {/* <!-- testimonail slide --> */}
+                <div className="tm-single-testimonial">
+                  <div className="tm-testimonial-thumb">
+                    <img src="/assets/img/test-02.jpg" alt="" />
+                  </div>
+                  <div className="tm-testimonial-text">
+                    <i className="fa fa-quote-right"></i>
+                    <blockquote>
+                      Nothing but the best. Team medicine with top notched
+                      specialists. Worth the drive to come here especially if it
+                      involves your health or the health of a loved one.
+                    </blockquote>
+                    <div className="tm-testimonial-meta">
+                      <h3>Sheri Coburn</h3> <span>Patients</span>
+                    </div>
+                  </div>
+                </div>
+                {/* <!-- testimonail slide --> */}
+                <div className="tm-single-testimonial">
+                  <div className="tm-testimonial-thumb">
+                    <img src="/assets/img/test-03.jpg" alt="" />
+                  </div>
+                  <div className="tm-testimonial-text">
+                    <i className="fa fa-quote-right"></i>
+                    <blockquote>
+                      I love this hospital, I definetly think its the best in
+                      Kanada, I had both of my children there, their staff is
+                      really nice, and they definelty took care of me.
+                    </blockquote>
+                    <div className="tm-testimonial-meta">
+                      <h3>Martha m.</h3> <span>Patients</span>
+                    </div>
+                  </div>
+                </div>
+                {/* <!-- testimonail slide --> */}
               </div>
-            </div>
-            <div className="col-lg-5">
-              <div className="empty-space col-md-b60 col-xs-b40"></div>
-              <form
-                method="POST"
-                action="assets/php/appointment.php"
-                className="tm-appointment-form"
-                id="appointment-form"
-              >
-                <div id="tm-alert1"></div>
-                <div className="tm-form-field">
-                  <input
-                    type="text"
-                    id="uname"
-                    name="uname"
-                    placeholder="Full Name"
-                    required
-                  />
-                  <span className="bar"></span>
-                </div>
-                <div className="tm-form-field">
-                  <input
-                    type="text"
-                    id="uemail"
-                    name="uemail"
-                    placeholder="Email Address"
-                    required
-                  />
-                  <span className="bar"></span>
-                </div>
-                <div className="tm-form-field">
-                  <input
-                    type="text"
-                    id="unumber"
-                    name="unumber"
-                    placeholder="Phone Number"
-                    required
-                  />
-                  <span className="bar"></span>
-                </div>
-                <div className="tm-form-field">
-                  <input
-                    name="udate"
-                    type="text"
-                    id="udate"
-                    placeholder="Booking Date"
-                  />
-                  <span className="bar"></span>
-                  <div className="date-icon">
-                    <i className="fa fa-calendar"></i>
-                  </div>
-                </div>
-                <div className="tm-form-field">
-                  <div className="tm-custom-select-wrap">
-                    <select
-                      name="udepartment"
-                      className="tm-custom-select"
-                      id="udepartment"
-                    >
-                      <option value="department">Department</option>
-                      <option value="dental-care">Dental Care</option>
-                      <option value="neurology">Neurology</option>
-                      <option value="crutches">Crutches</option>
-                      <option value="cardiology">Cardiology</option>
-                      <option value="pulmonary">Pulmonary</option>
-                      <option value="x-ray">X-Ray</option>
-                    </select>
-                  </div>
-                </div>
-                <div className="tm-form-field">
-                  <div className="tm-custom-select-wrap">
-                    <select
-                      name="udoctor"
-                      className="tm-custom-select"
-                      id="udoctor"
-                    >
-                      <option value="doctor">Doctor</option>
-                      <option value="jhon-doe">Dr. Jhon Doe</option>
-                      <option value="mak-rushi">Dr. Mak Roshi</option>
-                      <option value="mohoshin-kabir">Dr. Mohoshin Kabir</option>
-                      <option value="nayon-borua">Dr. Nayon Borua</option>
-                      <option value="rasel-islam">Dr. Rasel Islam</option>
-                      <option value="mahid-islam">Dr. Mahid Islam</option>
-                    </select>
-                  </div>
-                </div>
-                <div className="tm-form-field">
-                  <textarea
-                    cols="30"
-                    rows="10"
-                    id="umsg"
-                    name="umsg"
-                    placeholder="Your Message"
-                  ></textarea>
-                  <span className="bar"></span>
-                </div>
-                <div className="empty-space col-xs-b10"></div>
-                <div className="tm-form-field">
-                  <button
-                    className="tm-btn1 tm-reverse"
-                    type="submit"
-                    id="appointment-submit"
-                    name="submit"
-                  >
-                    BOOK APPOINTMENT
-                  </button>
-                </div>
-              </form>
-              <div className="empty-space col-md-b60 col-xs-b70"></div>
             </div>
           </div>
         </div>
+        <div className="empty-space col-md-b100 col-xs-b70"></div>
       </section>
-      {/* <!-- End Appointment Section --> */}
+      {/* <!-- End Testimonial Section --> */}
 
       {/* <!-- Start Gallery Section --> */}
       <section id=" gallery">
         <div className="empty-space col-md-b100 col-xs-b70"></div>
         <div className="tm-section-heading text-center">
-          <h2>View our Gallery</h2>
-          <div className="tm-section-seperator">
-            <span></span>
-          </div>
+          <h2>
+            Some <span className="highlight">Moments Captured</span>
+          </h2>
+
           <div className="empty-space col-md-b60 col-xs-b40"></div>
         </div>
-
         {/* <!-- .tm-portfolio-filter-area --> */}
         <div className="container text-center">
           <div className="row tm-portfolio zoom-gallery tm-gutter-less d-flex">
@@ -1153,84 +902,119 @@ const index = () => {
       </section>
       {/* <!-- End Gallery Section --> */}
 
-      {/* <!-- Start Testimonial Section --> */}
-      <section>
-        <div className="empty-space col-md-b100 col-xs-b70"></div>
-        <div className="tm-section-heading text-center">
-          <h2>Patients say about us</h2>
-          <div className="tm-section-seperator">
-            <span></span>
-          </div>
-          <div className="empty-space col-md-b60 col-xs-b40"></div>
+      {/* <!-- Start Appointment Section --> */}
+      <div className="empty-space col-md-b100 col-xs-b70"></div>
+      <div className="empty-space col-md-b100 col-xs-b70"></div>
+      <section className="tm-relative tm-gray-bg">
+        <div className="tm-half-section-bg right">
+          <img src="/assets/img/appointment-bg.jpg" alt="about hafl bg" />
         </div>
         <div className="container">
           <div className="row">
-            <div className="col-lg-8 offset-lg-2">
-              <div className="owl-carousel tm-testimonial tm-testimonial-1 tm-dots1">
-                <div className="tm-single-testimonial">
-                  <div className="tm-testimonial-thumb">
-                    <img src="/assets/img/test-01.jpg" alt="" />
+            <div className="col-lg-7 tm-hf-hide">
+              <div className="empty-space col-md-b0 col-xs-b70"></div>
+              <div
+                className="tm-appointment-heading tm-gray-bg wow fadeInLeft"
+                data-wow-duration="1s"
+                data-wow-delay="0.1s"
+              >
+                <div className="tm-section-heading text-center">
+                  <h2>REQUEST AN APPOINTMENT</h2>
+                  <div className="tm-section-seperator">
+                    <span></span>
                   </div>
-                  <div className="tm-testimonial-text">
-                    <i className="fa fa-quote-right"></i>
-                    <blockquote>
-                      They saved my life. They didn&apos;t give up, and they
-                      pushed for a treatment that would put me in remission.
-                      They continue to have some of the best staffing I&apos;ve
-                      ever had.{' '}
-                    </blockquote>
-                    <div className="tm-testimonial-meta">
-                      <h3>Alex Bieniek</h3>
-                      <span>Student</span>
-                    </div>
-                  </div>
+                  <p>
+                    If you wont to make an appointment with any specialist just
+                    fill up the form with valid data and we will contact you via
+                    phone for confirmation.
+                  </p>
                 </div>
-                {/* <!-- testimonail slide --> */}
-                <div className="tm-single-testimonial">
-                  <div className="tm-testimonial-thumb">
-                    <img src="/assets/img/test-02.jpg" alt="" />
-                  </div>
-                  <div className="tm-testimonial-text">
-                    <i className="fa fa-quote-right"></i>
-                    <blockquote>
-                      Nothing but the best. Team medicine with top notched
-                      specialists. Worth the drive to come here especially if it
-                      involves your health or the health of a loved one.
-                    </blockquote>
-                    <div className="tm-testimonial-meta">
-                      <h3>Sheri Coburn</h3>
-                      <span>Teacher</span>
-                    </div>
-                  </div>
-                </div>
-                {/* <!-- testimonail slide --> */}
-                <div className="tm-single-testimonial">
-                  <div className="tm-testimonial-thumb">
-                    <img src="/assets/img/test-03.jpg" alt="" />
-                  </div>
-                  <div className="tm-testimonial-text">
-                    <i className="fa fa-quote-right"></i>
-                    <blockquote>
-                      I love this hospital, I definetly think its the best in
-                      Kanada, I had both of my children there, their staff is
-                      really nice, and they definelty took care of me.
-                    </blockquote>
-                    <div className="tm-testimonial-meta">
-                      <h3>Martha m.</h3>
-                      <span>Professor</span>
-                    </div>
-                  </div>
-                </div>
-                {/* <!-- testimonail slide --> */}
               </div>
+            </div>
+            <div className="col-lg-5">
+              <div className="empty-space col-md-b60 col-xs-b40"></div>
+              <form
+                method="POST"
+                action="assets/php/appointment.php"
+                className="tm-appointment-form"
+                id="appointment-form"
+              >
+                <div id="tm-alert1"></div>
+                <div className="tm-form-field">
+                  <input
+                    type="text"
+                    id="uname"
+                    name="uname"
+                    placeholder="Full Name"
+                    required
+                  />
+                  <span className="bar"></span>
+                </div>
+                <div className="tm-form-field">
+                  <input
+                    type="text"
+                    id="uemail"
+                    name="uemail"
+                    placeholder="Email Address"
+                    required
+                  />
+                  <span className="bar"></span>
+                </div>
+                <div className="tm-form-field">
+                  <input
+                    type="text"
+                    id="unumber"
+                    name="unumber"
+                    placeholder="Phone Number"
+                    required
+                  />
+                  <span className="bar"></span>
+                </div>
+                <div className="tm-form-field">
+                  <input
+                    name="udate"
+                    type="text"
+                    id="udate"
+                    placeholder="Booking Date"
+                  />
+                  <span className="bar"></span>
+                  <div className="date-icon">
+                    <i className="fa fa-calendar"></i>
+                  </div>
+                </div>
+
+                <div className="tm-form-field">
+                  <textarea
+                    cols="30"
+                    rows="10"
+                    id="umsg"
+                    name="umsg"
+                    placeholder="Your Message"
+                  ></textarea>
+                  <span className="bar"></span>
+                </div>
+                <div className="empty-space col-xs-b10"></div>
+                <div className="tm-form-field">
+                  <button
+                    className="tm-btn1 tm-reverse"
+                    type="submit"
+                    id="appointment-submit"
+                    name="submit"
+                  >
+                    BOOK APPOINTMENT
+                  </button>
+                </div>
+              </form>
+              <div className="empty-space col-md-b60 col-xs-b70"></div>
             </div>
           </div>
         </div>
-        <div className="empty-space col-md-b100 col-xs-b70"></div>
       </section>
-      {/* <!-- End Testimonial Section --> */}
+      {/* <!-- End Appointment Section --> */}
 
       {/* <!-- Start FAQ Section --> */}
+      <div className="empty-space col-md-b100 col-xs-b70"></div>
+      <div className="empty-space col-md-b100 col-xs-b70"></div>
       <section className="tm-gray-bg tm-overflow-hide">
         <div className="row">
           <div className="col-lg-6">
@@ -1286,9 +1070,9 @@ const index = () => {
                   <div className="accordian-body">
                     Neurology is a branch of medical science that is concerned
                     with disorders and diseases of the nervous system. The term
-                    neurology comes from a combination of two words -
-                    &apos;neuron&apos; meaning nerve and &apos;logia&apos;
-                    meaning &apos;the study of&apos;.There are around a hundred
+                    neurology comes from a combination of two words - &apos;
+                    neuron&apos; meaning nerve and &apos; logia&apos; meaning
+                    &apos; the study of&apos; .There are around a hundred
                     billion neurons in the brain, capable of generating their
                     own impulses and of receiving and transmitting impulses from
                     neighboring cells.
@@ -1301,7 +1085,6 @@ const index = () => {
         </div>
       </section>
       {/* <!-- End FAQ Section --> */}
-
       {/* <!-- Start Blog Section --> */}
       <section id="blog">
         <div className="empty-space col-md-b100 col-xs-b70"></div>
@@ -1348,9 +1131,9 @@ const index = () => {
                     <div className="tm-blog-separator"></div>
                     <div className="tm-entry-content">
                       <p>
-                        If you&apos;re tossing and turning every night,
-                        there&apos;s some bad news. Your brain could be in big
-                        trouble! Turns out, there are some pretty scary side
+                        If you&apos; re tossing and turning every night,
+                        there&apos; s some bad news. Your brain could be in big
+                        trouble ! Turns out, there are some pretty scary side
                         effects to sleep loss, all around. (By the way, getting
                         too much sleep...
                       </p>
@@ -1488,7 +1271,6 @@ const index = () => {
         <div className="empty-space col-md-b70 col-xs-b40"></div>
       </section>
       {/* <!-- End Blog Section --> */}
-
       {/* <!-- Start News Letter Section --> */}
       <div className="tm-newsletter tm-bg">
         <div className="tm-nl-overlay"></div>
@@ -1528,7 +1310,6 @@ const index = () => {
         <div className="empty-space col-md-b100 col-xs-b70"></div>
       </div>
       {/* <!-- End News Letter Section --> */}
-
       {/* <!-- Start Contact Section --> */}
       <section id="contact">
         <div className="empty-space col-md-b100 col-xs-b70"></div>
@@ -1602,26 +1383,25 @@ const index = () => {
               <div className="empty-space col-md-b0 col-xs-b40"></div>
               <div className="tm-contact-info">
                 <div className="tm-single-contact">
-                  <i className="fa fa-map-marker"></i>
-                  <h3>Address</h3>
-                  <p>2855 Speer Blvd, Denver, CO 80211, USA</p>
-                </div>
-                <div className="empty-space col-xs-b25"></div>
-                <div className="tm-single-contact">
-                  <i className="fa fa-phone"></i>
-                  <h3>Phone</h3>
+                  <i className="fa fa-map-marker"></i> <h3>Address</h3>
                   <p>
-                    1-800-915-6270 <br />
-                    1-800-915-6272
+                    SURYA TORON APPARTMENT 296,PARNASHREE PALLY, <br />
+                    KOL-60,INDIA
                   </p>
                 </div>
                 <div className="empty-space col-xs-b25"></div>
                 <div className="tm-single-contact">
-                  <i className="fa fa-envelope"></i>
-                  <h3>Email</h3>
+                  <i className="fa fa-whatsapp"></i> <h3>Whatsapp</h3>
                   <p>
-                    info@trustlife.com <br />
-                    Skype: example
+                    91-861-764-0395 <br /> 91-956-438-5818 <br />{' '}
+                    91-700-122-0605
+                  </p>
+                </div>
+                <div className="empty-space col-xs-b25"></div>
+                <div className="tm-single-contact">
+                  <i className="fa fa-envelope"></i> <h3>Email</h3>
+                  <p>
+                    info@tirh.com <br />
                   </p>
                 </div>
                 <div className="empty-space col-xs-b25"></div>
@@ -1632,11 +1412,10 @@ const index = () => {
         <div className="empty-space col-md-b70 col-xs-b40"></div>
       </section>
       {/* <!-- End Contact Section --> */}
-
       {/* <!-- Start Map Section --> */}
       <div id="tm-map">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96652.27317354927!2d-74.33557928194516!3d40.79756494697628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a82f1352d0dd%3A0x81d4f72c4435aab5!2sTroy+Meadows+Wetlands!5e0!3m2!1sen!2sbd!4v1563075599994!5m2!1sen!2sbd"
+          src="https://maps.google.com/maps?q=chakdaha&t=&z=13&ie=UTF8&iwloc=&output=embed"
           allowFullScreen
         ></iframe>
       </div>

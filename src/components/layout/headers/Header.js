@@ -7,10 +7,11 @@ const Header = () => {
         <div className="tm-header-info-wrap">
           <div className="container tm-header-info">
             <a href="#">
-              <i className="fa fa-phone"></i>1-800-915-6270
+              <i className="fa fa-phone"></i>(91) - 8617640395 / (91) -
+              7001220605
             </a>
             <a href="#">
-              <i className="fa fa-envelope"></i>info@trustlife.com
+              <i className="fa fa-envelope"></i>info@tirh.com
             </a>
           </div>
         </div>
@@ -32,52 +33,16 @@ const Header = () => {
                   <a href="#home" className="nav-link tm-smooth-move">
                     HOME
                   </a>
-                  <ul>
-                    <li className="menu-item current-menu-item">
-                      <a href="index.html">Home1 (Default Version)</a>
-                    </li>
-                    <li className="menu-item">
-                      <a href="home-version-2.html">
-                        Home2 (Animation Version)
-                      </a>
-                    </li>
-                    <li className="menu-item">
-                      <a href="home-version-3.html">
-                        Home3 (Full Width Banner)
-                      </a>
-                    </li>
-                    <li className="menu-item">
-                      <a href="home-version-4.html">Home4 (Ripple Version)</a>
-                    </li>
-                    <li className="menu-item">
-                      <a href="home-version-5.html">Home5 (Parallax Version)</a>
-                    </li>
-                    <li className="menu-item">
-                      <a href="home-version-6.html">Home6 (Slider Version)</a>
-                    </li>
-                    <li className="menu-item">
-                      <a href="home-version-7.html">
-                        Home7 (Youtube Background)
-                      </a>
-                    </li>
-                    <li className="menu-item">
-                      <a href="home-version-8.html">Home8 (Minimal Version)</a>
-                    </li>
-                  </ul>
                 </li>
                 <li className="menu-item">
                   <a href="#about" className="nav-link tm-smooth-move">
                     ABOUT
                   </a>
                 </li>
-                {/* <li className="menu-item">
-                  <a href="#department" className="nav-link tm-smooth-move">
-                    DEPARTMENT
-                  </a>
-                </li> */}
+
                 <li className="menu-item">
                   <a href="#doctor" className="nav-link tm-smooth-move">
-                    DOCTOR
+                    COURSES
                   </a>
                 </li>
                 <li className="menu-item">
@@ -88,9 +53,9 @@ const Header = () => {
 
                 <li className="menu-item menu-item-has-children">
                   <a href="#blog" className="nav-link tm-smooth-move">
-                    BLOG
+                    NEWS & ARTICLES
                   </a>
-                  <ul>
+                  {/* <ul>
                     <li className="menu-item">
                       <a href="blog-right-sidebar.html">Blog Right Sidebar</a>
                     </li>
@@ -115,7 +80,7 @@ const Header = () => {
                         Single Blog Video Post
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li className="menu-item">
                   <a href="#contact" className="nav-link tm-smooth-move">
@@ -124,7 +89,7 @@ const Header = () => {
                 </li>
                 <li className="menu-item">
                   <a href="#appointment" className="nav-link tm-smooth-move">
-                    APPOINTMENT
+                    E-CLINIC
                   </a>
                 </li>
               </ul>
