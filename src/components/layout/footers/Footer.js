@@ -52,6 +52,7 @@ const Footer = () => {
                   </div>
                   <h3>THE INSTITUTE OF</h3>
                   <h2>REAL HOMEOPATHY</h2>
+                  <span>(91) - 7001220605 | info@tirh.com</span>
                 </div>
               </div>
               {/* <img src="/assets/img/iso-9001-2015.png" alt="" /> */}

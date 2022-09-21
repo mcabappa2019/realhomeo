@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Header = () => {
   return (
@@ -7,7 +8,7 @@ const Header = () => {
         <div className="tm-header-info-wrap">
           <div className="container tm-header-info">
             <a href="#">
-              <i className="fa fa-phone"></i>(91) - 8617640395 / (91) -
+              <i className="fa fa-phone"></i>(91) - 8617640395 | (91) -
               7001220605
             </a>
             <a href="#">
@@ -19,9 +20,11 @@ const Header = () => {
           <div className="container tm-header-menu-container">
             <div className="tm-site-branding">
               {/* <!-- For Image Logo --> */}
-              <a href="index.html" className="tm-logo-link">
-                <img src="assets/img/logo.png" alt="" className="tm-logo" />
-              </a>
+              <Link href="/">
+                <a className="tm-logo-link">
+                  <img src="assets/img/logo.png" alt="" className="tm-logo" />
+                </a>
+              </Link>
               {/* <!-- For Site Title --> */}
               {/* <!-- <span className="tm-site-title">
                         <a href="index.html">Trustlife</a>
@@ -30,9 +33,9 @@ const Header = () => {
             <nav className="tm-primary-nav tm-onepage-nav">
               <ul className="tm-primary-nav-list">
                 <li className="menu-item menu-item-has-children current-menu-ancestor current-menu-parent">
-                  <a href="#home" className="nav-link tm-smooth-move">
-                    HOME
-                  </a>
+                  <Link href="/">
+                    <a className="nav-link tm-smooth-move">HOME</a>
+                  </Link>
                 </li>
                 <li className="menu-item">
                   <a href="#about" className="nav-link tm-smooth-move">

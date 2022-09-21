@@ -77,9 +77,11 @@ const index = () => {
         <div className="empty-space col-md-b100 col-xs-b70"></div>
         <div className="tm-section-heading text-center">
           <h2>
+            <b>Real Homeopathy</b>
+          </h2>
+          <h2>
             <b>
-              Real Homeopathy{' '}
-              <span className="highlight">Learning Program</span>
+              <span className="highlight">e-Learning Program</span>
             </b>
           </h2>
 
@@ -88,15 +90,15 @@ const index = () => {
 
         <div className="container">
           <div className="row justify-content-center">
-            <div className="col-lg-3 md-6 text-center">
+            {/* <div className="col-lg-3 md-6 text-center">
               <img src="/assets/img/iso-medel.png" alt="" /> <br />
-            </div>
+            </div> */}
             <div className="col-lg-4 md-6 text-center">
-              <img src="/assets/img/Logo_RH.png" alt="" /> <br />
+              <img src="/assets/img/Logo_RH.png" alt="" />
             </div>
-            <div className="col-lg-3 md-6 text-center">
-              <img src="/assets/img/iso-medel.png" alt="" /> <br />
-            </div>
+            {/* <div className="col-lg-3 md-6 text-center">
+              <img src="/assets/img/iso-medel.png" alt="" />
+            </div> */}
           </div>
           {/* <!-- .row --> */}
         </div>
@@ -112,7 +114,7 @@ const index = () => {
               </span>
               <span className="d-flex justify-content-between mt-1">
                 <h5>Mode:</h5>
-                <h5>OFFLINE</h5>
+                <h5>ONLINE</h5>
               </span>
               <span className="d-flex justify-content-between my-1">
                 <h5>Version:</h5>
@@ -124,12 +126,18 @@ const index = () => {
               <h2>
                 <b>DHP & M.</b>
               </h2>
-              <h4>Diploma in Homoeopathic Philosophy and Medicine.</h4>
+              <h5>
+                Diploma in Homoeopathic
+                <br /> Philosophy and Medicine.
+              </h5>
 
               <div className="tm-about-btn details-btn">
                 <a href="#" className="tm-btn1">
                   APPLY NOW
                 </a>
+              </div>
+              <div className="tm-about-btn iso-img">
+                <img src="/assets/img/iso-medel.png" alt="" />
               </div>
             </div>
           </div>
@@ -155,11 +163,17 @@ const index = () => {
               <h2>
                 <b>ACRH</b>
               </h2>
-              <h4>Advanced Course of Real Homoeopathy.</h4>
+              <h5>
+                Advanced Course of <br />
+                Real Homoeopathy.
+              </h5>
               <div className="tm-about-btn details-btn">
                 <a href="#" className="tm-btn1">
                   APPLY NOW
                 </a>
+              </div>
+              <div className="tm-about-btn iso-img">
+                <img src="/assets/img/iso-medel.png" alt="" />
               </div>
             </div>
           </div>
@@ -280,7 +294,7 @@ const index = () => {
                     <span className="tm-member-speciality">
                       MD DM Cardiologist, USA
                     </span>
-                    <p className="mt-3">
+                    <p className="mt-3" style={{ textAlign: 'justify' }}>
                       Real homeopathy is very unique that it goes to the very
                       root of Deeper mind and consciousness and Genetics to
                       address the causation of disease at Gene, Energy and
@@ -334,7 +348,7 @@ const index = () => {
                     <span className="tm-member-speciality">
                       MD DM Neurologist & Holistic physician - USA
                     </span>
-                    <p className="mt-3">
+                    <p className="mt-3" style={{ textAlign: 'justify' }}>
                       Real homeopathy is very unique that it goes to the very
                       root of Deeper mind and consciousness and Genetics to
                       address the causation of disease at Gene, Energy and
@@ -386,7 +400,7 @@ const index = () => {
                       <a href="#">Dr. Alex Abbott</a>
                     </h3>
                     <span className="tm-member-speciality">Neurology</span>
-                    <p className="mt-3">
+                    <p className="mt-3" style={{ textAlign: 'justify' }}>
                       Real homeopathy is very unique that it goes to the very
                       root of Deeper mind and consciousness and Genetics to
                       address the causation of disease at Gene, Energy and
@@ -438,7 +452,7 @@ const index = () => {
                       <a href="#">Dr. Kay Conley</a>
                     </h3>
                     <span className="tm-member-speciality">Diagnosis</span>
-                    <p className="mt-3">
+                    <p className="mt-3" style={{ textAlign: 'justify' }}>
                       Real homeopathy is very unique that it goes to the very
                       root of Deeper mind and consciousness and Genetics to
                       address the causation of disease at Gene, Energy and
@@ -501,28 +515,98 @@ const index = () => {
             <div className="tm-tab-content">
               <div className="tm-tabs-item">
                 <div className="row">
-                  <div className="col-lg-6">
+                  {/* <div className="col-lg-6">
                     <div className="tm-dept-img">
                       <img src="/assets/img/success-story-img.png" alt="" />
                     </div>
-                  </div>
+                  </div> */}
                   {/* <!-- .col --> */}
-                  <div className="col-lg-6">
+                  <div className="col-lg-12">
                     <div className="tm-dept-details-wrap">
                       <div className="tm-about tm-gray-bg">
-                        <h3 className="tm-about-title">
-                          The world changing findings
-                        </h3>
                         <div className="tm-about-text">
-                          <p>
-                            More than 40 years, The Dental Health Care Center
-                            has practiced with one goal: to ensure our patients
-                            achieve a high level of oral health with as much
-                            comfort as possible.
-                          </p>
-                          <p>
-                            We dont just provide great dentistry, we make sure
-                            you understand all facets of your oral health.
+                          <img
+                            src="/assets/img/success-story-img.png"
+                            alt=""
+                            style={{ float: 'left', marginRight: '15px' }}
+                          />
+
+                          <p style={{ textAlign: 'justify' }}>
+                            <span className="h5 text-uppercase text-center highlight ">
+                              <b className="">
+                                A New Voyage With Real Homoeopathy :
+                              </b>
+                            </span>
+                            <br />
+                            <b>T</b>here are different therapeutic systems all
+                            over the world, each of which treats patients for
+                            their present complaints considering present sign
+                            and symptoms and also different pathological
+                            reports. As a result, patients recover from their
+                            present sufferings very soon. <br />
+                            Whereas, in the “GO BACK” procedure of Real
+                            Homoeopathic therapeutic system, patients are
+                            treated for their present complaints by considering
+                            the “origin” of present complaints; never depending
+                            on present signs and symptoms and different
+                            pathological reports. Hence, “origin” means the
+                            individual’s genetic makeup which is controlled by
+                            different groups of harmful genes and one group of
+                            beneficial genes. The genetic makeup of the
+                            individual is the only factor responsible for the
+                            present sufferings, which are inherited from our
+                            ancestors.
+                            <br />
+                            In Real Homoeopathy, the patient is treated for the
+                            present complaints i.e. medicine is prescribed
+                            considering only philosophy of early life, which is
+                            created by individual’s genetic makeup. Present
+                            signs and symptoms and pathological reports for
+                            present complaints never help in selecting
+                            appropriate medicine, rather, superficially selected
+                            medicines suppress the present complaints instead of
+                            curing them, as “origin” of present complaints is
+                            not considered.
+                            <br />
+                            According to James Tyler Kent, present complaints
+                            are considered as “results of different true
+                            diseases”. In different therapeutic systems,
+                            treatment is done only for present complaints,
+                            neglecting the “origin” i.e. true diseases.
+                            <br />
+                            Superficial procedure of treatment is done
+                            considering only signs and symptoms and pathological
+                            reports of present complaints. It causes suppression
+                            as well as palliation with which different
+                            deviations, distortions and perversions are created.
+                            <br />
+                            “Prescribing for the results of disease causes
+                            changes in the results of disease, but not in the
+                            sickness except to hurry its progress.” –
+                            <br />
+                            Ref- [“Lectures on Homoeopathic Philosophy” by James
+                            Tyler Kent, Chapter: ‘The Sick’, Page 23]
+                            <br />
+                            In Real Homoeopathic therapeutic system, medicine is
+                            prescribed after construction of six cycles
+                            following philosophy of early life i.e. considering
+                            six true diseases which are controlled by six groups
+                            of harmful genes. Change of medicine, potency, cycle
+                            and repetition of six cycles are done after
+                            consideration of consciousness and freedom of the
+                            individual. Strictly following the instructions of
+                            “GO BACK” procedure of Real Homoeopathic therapeutic
+                            system when the medicine is administered, the active
+                            and overactive harmful genes will become inactive
+                            permanently.
+                            <br />
+                            <b>
+                              Then, the apparently healthy individual will
+                              become absolutely or perfectly healthy and there
+                              will be no deviations, distortions and
+                              perversions. Now the individual will enjoy freedom
+                              till last breath.
+                            </b>
                           </p>
                         </div>
                         <div className="empty-space col-xs-b25"></div>
@@ -919,10 +1003,12 @@ const index = () => {
                 data-wow-delay="0.1s"
               >
                 <div className="tm-section-heading text-center">
-                  <h2>REQUEST AN APPOINTMENT</h2>
-                  <div className="tm-section-seperator">
+                  <h2>
+                    REQUEST AN <span className="highlight">APPOINTMENT</span>
+                  </h2>
+                  {/* <div className="tm-section-seperator">
                     <span></span>
-                  </div>
+                  </div> */}
                   <p>
                     If you wont to make an appointment with any specialist just
                     fill up the form with valid data and we will contact you via
@@ -1089,10 +1175,12 @@ const index = () => {
       <section id="blog">
         <div className="empty-space col-md-b100 col-xs-b70"></div>
         <div className="tm-section-heading text-center">
-          <h2>LATEST NEWS</h2>
-          <div className="tm-section-seperator">
+          <h2>
+            LATEST <span className="highlight">NEWS & ARTICLES</span>
+          </h2>
+          {/* <div className="tm-section-seperator">
             <span></span>
-          </div>
+          </div> */}
           <div className="empty-space col-md-b60 col-xs-b40"></div>
         </div>
         <div className="container">
@@ -1271,53 +1359,17 @@ const index = () => {
         <div className="empty-space col-md-b70 col-xs-b40"></div>
       </section>
       {/* <!-- End Blog Section --> */}
-      {/* <!-- Start News Letter Section --> */}
-      <div className="tm-newsletter tm-bg">
-        <div className="tm-nl-overlay"></div>
-        <div className="empty-space col-md-b100 col-xs-b70"></div>
-        <div className="container">
-          <form
-            className="mailchimp"
-            action="https://storerepublic.us12.list-manage.com/subscribe/post?u=d227d8d335060b093084903d0&amp;id=9ba078ceb0"
-          >
-            <div className="tm-form-field">
-              <input
-                type="email"
-                name="subscribe"
-                id="subscriber-email"
-                placeholder="Enter your Email Address"
-              />
-              <span className="bar"></span>
-            </div>
-            <button
-              type="submit"
-              id="subscribe-button"
-              className="tm-btn1 tm-reverse"
-            >
-              <span>
-                <i className="icofont icofont-location-arrow"></i>SUBSCRIBE NOW
-              </span>
-            </button>
-            {/* <!-- SUBSCRIPTION SUCCESSFUL OR ERROR MESSAGES --> */}
-            <h5 className="subscription-success"> .</h5>
-            <h5 className="subscription-error"> .</h5>
-            <label
-              className="subscription-label"
-              htmlFor="subscriber-email"
-            ></label>
-          </form>
-        </div>
-        <div className="empty-space col-md-b100 col-xs-b70"></div>
-      </div>
-      {/* <!-- End News Letter Section --> */}
+
       {/* <!-- Start Contact Section --> */}
-      <section id="contact">
+      <section className="tm-gray-bg" id="contact ">
         <div className="empty-space col-md-b100 col-xs-b70"></div>
         <div className="tm-section-heading text-center">
-          <h2>Get In Touch</h2>
-          <div className="tm-section-seperator">
+          <h2>
+            Get In <span className="highlight">Touch</span>
+          </h2>
+          {/* <div className="tm-section-seperator">
             <span></span>
-          </div>
+          </div> */}
           <div className="empty-space col-md-b60 col-xs-b40"></div>
         </div>
         <div className="container">
@@ -1325,7 +1377,7 @@ const index = () => {
             <div className="col-lg-8">
               <div id="tm-alert"></div>
               <form
-                action="assets/php/mail.php"
+                action=""
                 className="row tm-contact-form"
                 method="post"
                 id="contact-form"
@@ -1386,7 +1438,7 @@ const index = () => {
                   <i className="fa fa-map-marker"></i> <h3>Address</h3>
                   <p>
                     SURYA TORON APPARTMENT 296,PARNASHREE PALLY, <br />
-                    KOL-60,INDIA
+                    KOL-60, INDIA
                   </p>
                 </div>
                 <div className="empty-space col-xs-b25"></div>
@@ -1415,8 +1467,10 @@ const index = () => {
       {/* <!-- Start Map Section --> */}
       <div id="tm-map">
         <iframe
-          src="https://maps.google.com/maps?q=chakdaha&t=&z=13&ie=UTF8&iwloc=&output=embed"
-          allowFullScreen
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d921.4811489636602!2d88.30398535987159!3d22.507012112182874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027a227b8f25eb%3A0xf1283e442cef7d2a!2sSurya%20Sangha%20Club!5e0!3m2!1sen!2sin!4v1663781112235!5m2!1sen!2sin"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
       {/* <!-- End Map Section --> */}

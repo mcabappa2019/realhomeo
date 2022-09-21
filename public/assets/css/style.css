@@ -2810,8 +2810,8 @@ html {
     border-bottom: 1px solid #fff;
     margin-bottom: 0;
     padding: 10px 0px;
-    color: #fff;
-    background-color: transparent;
+    color: #000;
+    background-color: #fff;
     padding-top: 0;
 }
 
@@ -4014,7 +4014,8 @@ html {
 
 /*News Letter*/
 .tm-newsletter {
-    background-image: url(../img/newsletter.jpg);
+    /* background-image: url(../img/newsletter.jpg); */
+    background-color: #001F61;
 }
 
 .parallax {
@@ -4994,6 +4995,13 @@ blockquote small span {
     width: 45%;
 }
 
+.tm-footer-hotline-in h5 {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 3px;
+    color: #fff;
+}
 
 .tm-footer-hotline-in h3 {
     font-size: 18px;
@@ -6950,7 +6958,6 @@ body.rtl {
 }
 
 .course h6 {
-    opacity: 0.6;
     margin: 0;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -6981,6 +6988,13 @@ body.rtl {
     position: absolute;
     bottom: 5%;
     right: 5%;
+}
+
+.course-info .iso-img {
+    position: absolute;
+    right: 0;
+    width: 30%;
+    top: 12%;
 }
 
 .course-preview a {
