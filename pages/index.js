@@ -32,7 +32,7 @@ const index = () => {
           id="tm-hero-slider"
         >
           <img
-            src="/assets/img/slide-01.jpg"
+            src="/assets/img/slider.png"
             alt="slide-01"
             style={{
               width: '100%',
@@ -52,14 +52,14 @@ const index = () => {
       </section>
       <section className="tm-fun-fact-wrap tm-bg">
         <div className="container">
-          <div className="row">
-            <div className="col-lg-4 col-md-6">
+          <div className="row d-flex">
+            <div className=" col-5">
               <div className=" text-center ">
                 <img src="/assets/img/DrShyamalDas.png" alt="" />
               </div>
             </div>
-            <div className="col-lg-8 col-md-6">
-              <div className="banner-content">
+            <div className="col-7 ">
+              <div className="banner-content d-none d-lg-block">
                 <h1>The Real Homeopathy</h1>
                 <p>
                   &#8220; To make perfectly healthy individual or citizen of a
@@ -76,12 +76,12 @@ const index = () => {
       <section className="courses">
         <div className="empty-space col-md-b100 col-xs-b70"></div>
         <div className="tm-section-heading text-center">
-          <h2>
+          {/* <h2>
             <b>Real Homeopathy</b>
-          </h2>
+          </h2> */}
           <h2>
             <b>
-              <span className="highlight">e-Learning Program</span>
+              <span className="highlight">e-Learning</span> Program
             </b>
           </h2>
 
@@ -103,9 +103,9 @@ const index = () => {
           {/* <!-- .row --> */}
         </div>
 
-        <div className="courses-container ">
-          <div className="course">
-            <div className="course-preview">
+        <div className="container">
+          <div className="row course d-flex">
+            <div className="col-md-12 col-lg-6 course-preview">
               <h5>Course For</h5>
               <h4 className="text-uppercase">All Students</h4>
               <span className="d-flex justify-content-between mt-5">
@@ -121,7 +121,7 @@ const index = () => {
                 <h5>English & Hindi</h5>
               </span>
             </div>
-            <div className="course-info">
+            <div className="col-md-12 col-lg-6 course-info">
               <h6 className="text-end">Trusted by 1100 Students</h6>
               <h2>
                 <b>DHP & M.</b>
@@ -136,13 +136,13 @@ const index = () => {
                   APPLY NOW
                 </a>
               </div>
-              <div className="tm-about-btn iso-img">
+              <div className="iso-img">
                 <img src="/assets/img/iso-medel.png" alt="" />
               </div>
             </div>
           </div>
-          <div className="course">
-            <div className="course-preview">
+          <div className="row course d-flex">
+            <div className="col-md-12 col-lg-6 course-preview">
               <h5>Course For</h5>
               <h4 className="text-uppercase">Registered Physicians</h4>
               <span className="d-flex justify-content-between mt-5">
@@ -158,7 +158,8 @@ const index = () => {
                 <h5>English & Hindi</h5>
               </span>
             </div>
-            <div className="course-info">
+
+            <div className="col-md-12 col-lg-6 course-info">
               <h6 className="text-end">Trusted by 450 Doctors</h6>
               <h2>
                 <b>ACRH</b>
@@ -172,7 +173,7 @@ const index = () => {
                   APPLY NOW
                 </a>
               </div>
-              <div className="tm-about-btn iso-img">
+              <div className="iso-img">
                 <img src="/assets/img/iso-medel.png" alt="" />
               </div>
             </div>
@@ -242,8 +243,7 @@ const index = () => {
         <div className="empty-space col-md-b100 col-xs-b70"></div>
         <div className="tm-section-heading text-center">
           <h2>
-            <span className="highlight">What Experts SAY</span> about real
-            homeopathy
+            What <span className="highlight">Experts SAY</span>
           </h2>
           {/* <div className="tm-section-seperator">
             <span></span>
@@ -254,12 +254,12 @@ const index = () => {
           <div className="row">
             <div className="col-lg-8 offset-lg-2">
               <div className="">
-                <div className="tm-team-member d-flex my-3">
+                <div className="tm-team-member d-block d-lg-flex my-3">
                   <div className="tm-member-hover">
                     <a href="#" className="tm-member-thumb">
                       <img src="assets/img/doctor-01.jpg" alt="" />
                     </a>
-                    <div className="tm-member-social-btn-wrap ">
+                    <div className="tm-member-social-btn-wrap d-none d-lg-flex">
                       <div className="tm-member-socila-btn">
                         <a href="#" className="tm-social-btn white">
                           <i className="fa fa-facebook-square"></i>
@@ -308,12 +308,12 @@ const index = () => {
                   </div>
                 </div>
                 {/* <!-- .tm-team-member --> */}
-                <div className="tm-team-member d-flex my-3">
+                <div className="tm-team-member d-block d-lg-flex my-3">
                   <div className="tm-member-hover">
                     <a href="#" className="tm-member-thumb">
                       <img src="/assets/img/doctor-02.jpg" alt="" />
                     </a>
-                    <div className="tm-member-social-btn-wrap">
+                    <div className="tm-member-social-btn-wrap d-none d-lg-flex">
                       <div className="tm-member-socila-btn">
                         <a href="#" className="tm-social-btn white">
                           <i className="fa fa-facebook-square"></i>
@@ -362,12 +362,12 @@ const index = () => {
                   </div>
                 </div>
                 {/* <!-- .tm-team-member --> */}
-                <div className="tm-team-member d-flex my-3">
+                <div className="tm-team-member d-block d-lg-flex my-3">
                   <div className="tm-member-hover">
                     <a href="#" className="tm-member-thumb">
                       <img src="/assets/img/doctor-03.jpg" alt="" />
                     </a>
-                    <div className="tm-member-social-btn-wrap">
+                    <div className="tm-member-social-btn-wrap d-none d-lg-flex">
                       <div className="tm-member-socila-btn">
                         <a href="#" className="tm-social-btn white">
                           <i className="fa fa-facebook-square"></i>
@@ -414,12 +414,12 @@ const index = () => {
                   </div>
                 </div>
                 {/* <!-- .tm-team-member --> */}
-                <div className="tm-team-member d-flex my-3">
+                <div className="tm-team-member d-block d-lg-flex my-3">
                   <div className="tm-member-hover">
                     <a href="#" className="tm-member-thumb">
                       <img src="/assets/img/doctor-04.jpg" alt="" />
                     </a>
-                    <div className="tm-member-social-btn-wrap">
+                    <div className="tm-member-social-btn-wrap d-none d-lg-flex">
                       <div className="tm-member-socila-btn">
                         <a href="#" className="tm-social-btn white">
                           <i className="fa fa-facebook-square"></i>
@@ -524,20 +524,23 @@ const index = () => {
                   <div className="col-lg-12">
                     <div className="tm-dept-details-wrap">
                       <div className="tm-about tm-gray-bg">
+                        <div className="h3 text-uppercase text-end ">
+                          <span className="highlight">
+                            The Real Homoeopathy
+                          </span>
+                        </div>
                         <div className="tm-about-text">
                           <img
-                            src="/assets/img/success-story-img.png"
+                            src="/assets/img/success-story-img-2.png"
                             alt=""
                             style={{ float: 'left', marginRight: '15px' }}
                           />
 
-                          <p style={{ textAlign: 'justify' }}>
-                            <span className="h5 text-uppercase text-center highlight ">
-                              <b className="">
-                                A New Voyage With Real Homoeopathy :
-                              </b>
-                            </span>
-                            <br />
+                          <p
+                            style={{
+                              textAlign: 'justify',
+                            }}
+                          >
                             <b>T</b>here are different therapeutic systems all
                             over the world, each of which treats patients for
                             their present complaints considering present sign
@@ -834,7 +837,7 @@ const index = () => {
         <div className="empty-space col-md-b100 col-xs-b70"></div>
         <div className="tm-section-heading text-center">
           <h2>
-            What <span className="highlight">Patients says</span> about us
+            What <span className="highlight">Patients says</span>
           </h2>
 
           <div className="empty-space col-md-b60 col-xs-b40"></div>
@@ -908,7 +911,7 @@ const index = () => {
         <div className="empty-space col-md-b100 col-xs-b70"></div>
         <div className="tm-section-heading text-center">
           <h2>
-            Some <span className="highlight">Moments Captured</span>
+            <span className="highlight">Moments</span> Captured
           </h2>
 
           <div className="empty-space col-md-b60 col-xs-b40"></div>
@@ -1004,7 +1007,7 @@ const index = () => {
               >
                 <div className="tm-section-heading text-center">
                   <h2>
-                    REQUEST AN <span className="highlight">APPOINTMENT</span>
+                    <span className="highlight">APPOINTMENT</span>
                   </h2>
                   {/* <div className="tm-section-seperator">
                     <span></span>
@@ -1021,7 +1024,7 @@ const index = () => {
               <div className="empty-space col-md-b60 col-xs-b40"></div>
               <form
                 method="POST"
-                action="assets/php/appointment.php"
+                action=""
                 className="tm-appointment-form"
                 id="appointment-form"
               >
@@ -1087,7 +1090,7 @@ const index = () => {
                     id="appointment-submit"
                     name="submit"
                   >
-                    BOOK APPOINTMENT
+                    SEND REQUEST
                   </button>
                 </div>
               </form>
@@ -1126,7 +1129,7 @@ const index = () => {
           </div>
           <div className="col-lg-6">
             <div className="empty-space col-md-b60 col-xs-b65"></div>
-            <div className="accordian-wrapper">
+            <div className="accordian-wrapper container">
               <h2 className="accordian-heading">Frequently Asked Questions</h2>
               <div className="accordian">
                 <div className="single-accordian">
@@ -1176,7 +1179,7 @@ const index = () => {
         <div className="empty-space col-md-b100 col-xs-b70"></div>
         <div className="tm-section-heading text-center">
           <h2>
-            LATEST <span className="highlight">NEWS & ARTICLES</span>
+            NEWS & <span className="highlight">ARTICLES</span>
           </h2>
           {/* <div className="tm-section-seperator">
             <span></span>
@@ -1468,9 +1471,9 @@ const index = () => {
       <div id="tm-map">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d921.4811489636602!2d88.30398535987159!3d22.507012112182874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a027a227b8f25eb%3A0xf1283e442cef7d2a!2sSurya%20Sangha%20Club!5e0!3m2!1sen!2sin!4v1663781112235!5m2!1sen!2sin"
-          allowfullscreen=""
+          allowFullScreen=""
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
+          referrerPolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
       {/* <!-- End Map Section --> */}

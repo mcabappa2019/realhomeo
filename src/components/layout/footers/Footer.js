@@ -36,7 +36,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="tm-site-footer">
+      <div className="tm-site-footer ">
         <div className="container">
           <div className="row row-sm-reverce">
             <div className="col-md-6 col-lg-6">
@@ -45,9 +45,9 @@ const Footer = () => {
               </p>
             </div>
             <div className="col-md-6 col-lg-6">
-              <div className="tm-footer-hotline">
+              <div className="tm-footer-hotline d-none d-lg-block">
                 <div className="tm-footer-hotline-in">
-                  <div className="tm-phone-icon">
+                  <div className="tm-phone-icon ">
                     <img src="/assets/img/iso-9001-2015.png" alt="" />
                   </div>
                   <h3>THE INSTITUTE OF</h3>
@@ -55,7 +55,6 @@ const Footer = () => {
                   <span>(91) - 7001220605 | info@tirh.com</span>
                 </div>
               </div>
-              {/* <img src="/assets/img/iso-9001-2015.png" alt="" /> */}
             </div>
           </div>
         </div>

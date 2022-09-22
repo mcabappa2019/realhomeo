@@ -1952,7 +1952,7 @@ html {
 --------------------------------------------------------------*/
 /*Hero*/
 .hero {
-    height: 720px;
+    height: 600px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2810,8 +2810,8 @@ html {
     border-bottom: 1px solid #fff;
     margin-bottom: 0;
     padding: 10px 0px;
-    color: #000;
-    background-color: #fff;
+    color: #fff;
+    background-color: transparent;
     padding-top: 0;
 }
 
@@ -5333,6 +5333,11 @@ blockquote small span {
 }
 
 /*Home Fore*/
+
+.body-content {
+    margin-top: 120px;
+}
+
 .hero.tm-style2 {
     margin-bottom: 0;
     margin-top: 45px;
@@ -5678,6 +5683,8 @@ blockquote small span {
 }
 
 @media screen and (max-width: 1500px) and (min-width: 1200px) {
+
+
     .hero.tm-style2 {
         height: 660px;
     }
@@ -5709,7 +5716,7 @@ blockquote small span {
 
 @media screen and (max-width: 1199px) {
     .tm-site-branding {
-        width: 200px;
+        width: 300px;
     }
 
     .tm-primary-nav .tm-primary-nav-list>.menu-item {
@@ -5759,6 +5766,10 @@ blockquote small span {
 }
 
 @media screen and (max-width: 991px) {
+
+    .body-content {
+        margin-top: 75px;
+    }
 
     /*== Home page Header ==*/
     .m-menu {
@@ -5868,7 +5879,7 @@ blockquote small span {
 
     /*== End Site Header ==*/
     .hero {
-        height: 600px;
+        height: 525px;
     }
 
     .slider-text h1 {
@@ -6132,9 +6143,9 @@ blockquote small span {
         flex-direction: column-reverse;
     }
 
-    .tm-site-footer {
+    /* .tm-site-footer {
         padding: 40px 0;
-    }
+    } */
 
     .tm-price-list {
         max-width: 350px;
@@ -6198,7 +6209,7 @@ blockquote small span {
 
 @media screen and (max-width: 575px) {
     .hero {
-        height: 510px;
+        height: 445px;
     }
 
     .slider-text p br,
@@ -6206,9 +6217,14 @@ blockquote small span {
         display: none;
     }
 
-    .tm-section-heading h2 {
+    h2 {
         font-size: 26px;
         line-height: 26px;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
     }
 
     .tm-section-heading p {
@@ -6908,7 +6924,7 @@ body.rtl {
 
 .banner-content {
     position: relative;
-    top: 160px;
+    top: 50%;
 }
 
 .banner-content h1 {
@@ -6943,7 +6959,6 @@ body.rtl {
 }
 
 /* Course */
-.courses-container {}
 
 .course {
     background-color: #fff;
@@ -6952,7 +6967,7 @@ body.rtl {
     display: flex;
     max-width: 100%;
     overflow: hidden;
-    width: 40%;
+    /* width: 40%; */
     margin: 40px auto;
     border: 1px solid #002856;
 }
@@ -6990,11 +7005,12 @@ body.rtl {
     right: 5%;
 }
 
-.course-info .iso-img {
+.courses .iso-img {
     position: absolute;
     right: 0;
-    width: 30%;
-    top: 12%;
+    z-index: 9;
+    width: 22%;
+    top: 10%;
 }
 
 .course-preview a {
@@ -7009,212 +7025,93 @@ body.rtl {
 .course-info {
     padding: 10px 30px;
     position: relative;
-    width: 100%;
+    min-height: 240px;
 }
 
-.progress-container {
-    position: absolute;
-    top: 30px;
-    right: 30px;
-    text-align: right;
-    width: 150px;
+
+
+.drawer-wrapper-right {
+    width: 70%;
+    height: 100%;
+    position: fixed;
+    right: -70%;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+    background: #fff;
+    border-left: 0 solid #d2d2d2;
+    box-shadow: 0 0.3rem 0.6rem rgb(0 0 0 / 13%);
+    transition: all .2s ease-out;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
 }
 
-.progress {
-    background-color: #ddd;
-    border-radius: 3px;
-    height: 5px;
-    width: 100%;
-}
-
-.progress::after {
-    border-radius: 3px;
-    background-color: #2A265F;
-    content: '';
-    position: absolute;
+.layer {
+    position: fixed;
     top: 0;
     left: 0;
-    height: 5px;
-    width: 66%;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: 9998;
+    background-color: rgba(0, 0, 0, .35);
+    -moz-transition: all .1s ease;
+    -o-transition: all .1s ease;
+    -webkit-transition: all .1s ease;
+    -ms-transition: all .1s ease;
+    transition: all .1s ease;
+    opacity: 0;
+    visibility: hidden;
 }
 
-.progress-text {
-    font-size: 10px;
-    opacity: 0.6;
-    letter-spacing: 1px;
+.layer-is-visible {
+    opacity: 1;
+    visibility: visible;
 }
 
-.btn {
-    background-color: #2A265F;
-    border: 0;
-    border-radius: 50px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+.drawer-btn {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 24px;
+    background: rgb(255 255 255 / 15%);
+    box-shadow: 0 .3rem .6rem rgba(0, 0, 0, .13);
     color: #fff;
-    font-size: 16px;
-    padding: 12px 25px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     position: absolute;
-    bottom: 30px;
-    right: 30px;
-    letter-spacing: 1px;
+    top: 22%;
+    right: 100%;
+    cursor: pointer;
+    z-index: 9999;
 }
 
-/* SOCIAL PANEL CSS */
-.social-panel-container {
-    position: fixed;
+.product-compare.drawer-btn {
+    top: 16%;
+}
+
+
+
+.drawer-wrapper-right.drawer-toggled {
     right: 0;
-    bottom: 80px;
-    transform: translateX(100%);
-    transition: transform 0.4s ease-in-out;
+    z-index: 9999;
 }
 
-.social-panel-container.visible {
-    transform: translateX(-10px);
+
+
+.drawer-body {
+    padding: 1.25rem
 }
 
-.social-panel {
-    background-color: #fff;
-    border-radius: 16px;
-    box-shadow: 0 16px 31px -17px rgba(0, 31, 97, 0.6);
-    border: 5px solid #001F61;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Muli';
-    position: relative;
-    height: 169px;
-    width: 370px;
-    max-width: calc(100% - 10px);
-}
-
-.social-panel button.close-btn {
-    border: 0;
-    color: #97A5CE;
-    cursor: pointer;
-    font-size: 20px;
-    position: absolute;
-    top: 5px;
-    right: 5px;
-}
-
-.social-panel button.close-btn:focus {
-    outline: none;
-}
-
-.social-panel p {
-    background-color: #001F61;
-    border-radius: 0 0 10px 10px;
-    color: #fff;
-    font-size: 14px;
-    line-height: 18px;
-    padding: 2px 17px 6px;
-    position: absolute;
-    top: 0;
-    left: 50%;
+.drawer {
+    list-style: none;
     margin: 0;
-    transform: translateX(-50%);
-    text-align: center;
-    width: 235px;
-}
-
-.social-panel p i {
-    margin: 0 5px;
-}
-
-.social-panel p a {
-    color: #FF7500;
-    text-decoration: none;
-}
-
-.social-panel h4 {
-    margin: 20px 0;
-    color: #97A5CE;
-    font-family: 'Muli';
-    font-size: 14px;
-    line-height: 18px;
-    text-transform: uppercase;
-}
-
-.social-panel ul {
-    display: flex;
-    list-style-type: none;
     padding: 0;
-    margin: 0;
+    overflow: hidden;
+    margin-left: 20px;
 }
 
-.social-panel ul li {
-    margin: 0 10px;
-}
-
-.social-panel ul li a {
-    border: 1px solid #DCE1F2;
-    border-radius: 50%;
-    color: #001F61;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 50px;
-    text-decoration: none;
-}
-
-.social-panel ul li a:hover {
-    border-color: #FF6A00;
-    box-shadow: 0 9px 12px -9px #FF6A00;
-}
-
-.floating-btn {
-    border-radius: 26.5px;
-    background-color: #001F61;
-    border: 1px solid #001F61;
-    box-shadow: 0 16px 22px -17px #03153B;
-    color: #fff;
-    cursor: pointer;
-    font-size: 16px;
-    line-height: 20px;
-    padding: 12px 20px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    z-index: 999;
-}
-
-.floating-btn:hover {
-    background-color: #ffffff;
-    color: #001F61;
-}
-
-.floating-btn:focus {
-    outline: none;
-}
-
-.floating-text {
-    background-color: #001F61;
-    border-radius: 10px 10px 0 0;
-    color: #fff;
-    font-family: 'Muli';
-    padding: 7px 15px;
-    position: fixed;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    z-index: 998;
-}
-
-.floating-text a {
-    color: #FF7500;
-    text-decoration: none;
-}
-
-@media screen and (max-width: 480px) {
-
-    .social-panel-container.visible {
-        transform: translateX(0px);
-    }
-
-    .floating-btn {
-        right: 10px;
-    }
-}
+.drawer li {}
