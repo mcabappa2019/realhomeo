@@ -26,7 +26,11 @@ const Header = () => {
                 {/* <!-- For Image Logo --> */}
                 <Link href="/">
                   <a className="tm-logo-link">
-                    <img src="assets/img/logo.png" alt="" className="tm-logo" />
+                    <img
+                      src="assets/img/logo.webp"
+                      alt=""
+                      className="tm-logo"
+                    />
                   </a>
                 </Link>
                 {/* <!-- For Site Title --> */}

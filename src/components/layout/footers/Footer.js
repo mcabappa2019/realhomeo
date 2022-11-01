@@ -48,7 +48,7 @@ const Footer = () => {
               <div className="tm-footer-hotline d-none d-lg-block">
                 <div className="tm-footer-hotline-in">
                   <div className="tm-phone-icon ">
-                    <img src="/assets/img/iso-9001-2015.png" alt="" />
+                    <img src="/assets/img/iso-9001-2015.webp" alt="" />
                   </div>
                   <h3>THE INSTITUTE OF</h3>
                   <h2>REAL HOMEOPATHY</h2>
