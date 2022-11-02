@@ -1,6 +1,7 @@
 import React from 'react';
+import Link from 'next/link';
 
-const News = () => {
+const News = ({ homePage = false }) => {
   return (
     <section id="blog">
       <div className="empty-space col-md-b100 col-xs-b70"></div>
@@ -185,6 +186,13 @@ const News = () => {
             <div className="empty-space col-xs-b30"></div>
           </div>
         </div>
+        {homePage && (
+          <div className="d-flex justify-content-end">
+            <Link href="/news">
+              <a className="highlight px-3 py-1">More..</a>
+            </Link>
+          </div>
+        )}
       </div>
       <div className="empty-space col-md-b70 col-xs-b40"></div>
     </section>

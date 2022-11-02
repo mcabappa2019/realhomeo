@@ -9,15 +9,49 @@ const Header = () => {
     <>
       <header className="tm-header3">
         <div className="tm-site-header">
-          <div className="tm-header-info-wrap d-none d-lg-block">
-            <div className="container tm-header-info">
-              <a href="#">
-                <i className="fa fa-phone"></i>(91) - 8617640395 | (91) -
-                7001220605
-              </a>
-              <a href="#">
-                <i className="fa fa-envelope"></i>info@tirh.com
-              </a>
+          <div className="tm-header-info-wrap d-none d-lg-flex ">
+            <div
+              className="container tm-header-info d-flex justify-content-between"
+              style={{ zIndex: '3' }}
+            >
+              <div className="tm-footer-social-list justify-content-end ms-5 w-25 gap-3">
+                <a
+                  href="https://www.facebook.com/profile.php?id=100059388729469"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="tm-social-btn "
+                >
+                  <i className="fa fa-facebook-square"></i>
+                  <i className="fa fa-facebook-square"></i>
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UC9CtWIECLn1G70gZk0lZZHg"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="tm-social-btn "
+                >
+                  <i className="fa fa-youtube-square"></i>
+                  <i className="fa fa-youtube-square"></i>
+                </a>
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="tm-social-btn "
+                >
+                  <i className="fa fa-twitter-square"></i>
+                  <i className="fa fa-twitter-square"></i>
+                </a>
+              </div>
+              <div>
+                <a href="#">
+                  <i className="fa fa-phone"></i>(91) - 8617640395 | (91) -
+                  7001220605
+                </a>
+                <a href="#">
+                  <i className="fa fa-envelope"></i>info@tirh.org
+                </a>
+              </div>
             </div>
           </div>
           <div className="tm-header-menu">
@@ -27,7 +61,7 @@ const Header = () => {
                 <Link href="/">
                   <a className="tm-logo-link">
                     <img
-                      src="assets/img/logo.webp"
+                      src="/assets/img/logo.webp"
                       alt=""
                       className="tm-logo"
                     />
@@ -46,26 +80,27 @@ const Header = () => {
                     </Link>
                   </li>
                   <li className="menu-item">
-                    <a href="#about" className="nav-link tm-smooth-move">
-                      ABOUT
-                    </a>
+                    <Link href="/aboutUs">
+                      <a className="nav-link tm-smooth-move">ABOUT</a>
+                    </Link>
                   </li>
 
                   <li className="menu-item">
-                    <a href="#doctor" className="nav-link tm-smooth-move">
-                      COURSES
-                    </a>
+                    <Link href="/contactUs">
+                      <a className="nav-link tm-smooth-move">CONTACT</a>
+                    </Link>
                   </li>
+
                   <li className="menu-item">
-                    <a href="#gallery" className="nav-link tm-smooth-move">
-                      GALLERY
-                    </a>
+                    <Link href="/gallery">
+                      <a className="nav-link tm-smooth-move">GALLERY</a>
+                    </Link>
                   </li>
 
                   <li className="menu-item menu-item-has-children">
-                    <a href="#blog" className="nav-link tm-smooth-move">
-                      NEWS & ARTICLES
-                    </a>
+                    <Link href="/newsArticle">
+                      <a className="nav-link tm-smooth-move">NEWS & ARTICLES</a>
+                    </Link>
                     {/* <ul>
                     <li className="menu-item">
                       <a href="blog-right-sidebar.html">Blog Right Sidebar</a>
@@ -93,15 +128,16 @@ const Header = () => {
                     </li>
                   </ul> */}
                   </li>
+
                   <li className="menu-item">
-                    <a href="#contact" className="nav-link tm-smooth-move">
-                      CONTACT
-                    </a>
+                    <Link href="/eLearning">
+                      <a className="nav-link tm-smooth-move">E-LEARNING</a>
+                    </Link>
                   </li>
                   <li className="menu-item">
-                    <a href="#appointment" className="nav-link tm-smooth-move">
-                      E-CLINIC
-                    </a>
+                    <Link href="/eClinic">
+                      <a className="nav-link tm-smooth-move">E-CLINIC</a>
+                    </Link>
                   </li>
                 </ul>
               </nav>

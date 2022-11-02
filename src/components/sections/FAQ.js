@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const FAQ = () => {
   return (
@@ -34,38 +35,37 @@ const FAQ = () => {
               <h2 className="accordian-heading">Frequently Asked Questions</h2>
               <div className="accordian">
                 <div className="single-accordian">
-                  <h3 className="accordian-head">What is dental care?</h3>
+                  <h3 className="accordian-head">What is Real Homeopathy?</h3>
                   <div className="accordian-body">
-                    Tooth valuable resources, dental care should take us
-                    regularly to stay healthy. Oral Health Overview. Good dental
-                    or oral care is important to maintaining healthy teeth,
-                    gums, and tongue. Oral problems, including bad breath, dry
-                    mouth, canker or cold sores, TMD, tooth decay, or thrush are
-                    all treatable with proper diagnosis and care.
+                    in the “GO BACK” procedure of Real Homoeopathic therapeutic
+                    system, patients are treated for their present complaints by
+                    considering the “origin” of present complaints; never
+                    depending on present signs and symptoms and different
+                    pathological reports.
                   </div>
                 </div>
                 <div className="single-accordian">
-                  <h3 className="accordian-head">Does offer emergency care?</h3>
+                  <h3 className="accordian-head">
+                    How we can learn Real Homeopathy ?
+                  </h3>
                   <div className="accordian-body">
-                    Urgent care centers are a relatively new addition to the
-                    healthcare industry that have helped to benefit both
-                    community medical services and patients. As a fast,
-                    affordable alternative to emergency room care for patients
-                    with non-life-threatening conditions, urgent care medical
-                    clinics offer people a convenient treatment option.
+                    We have training program [e-Learning program] on “Real
+                    Homeopathy” for both medical student & professionals.
+                    Anybody can join this program. For More details, visit{' '}
+                    <Link href="/eLearning">
+                      <a>eLearning</a>
+                    </Link>
                   </div>
                 </div>
                 <div className="single-accordian">
-                  <h3 className="accordian-head">Online live support</h3>
+                  <h3 className="accordian-head">
+                    All critical diseases can be treated by Real Homeopathy?
+                  </h3>
                   <div className="accordian-body">
-                    Neurology is a branch of medical science that is concerned
-                    with disorders and diseases of the nervous system. The term
-                    neurology comes from a combination of two words - &apos;
-                    neuron&apos; meaning nerve and &apos; logia&apos; meaning
-                    &apos; the study of&apos; .There are around a hundred
-                    billion neurons in the brain, capable of generating their
-                    own impulses and of receiving and transmitting impulses from
-                    neighboring cells.
+                    Yes, almost all minor and critical diseases can be treated
+                    by Real Homeopathy treatment system. Such as hypertension,
+                    diabetes, chronic renal failure, cardiac problem, liver
+                    problem, problem in the brain, genetic disordered,etc.
                   </div>
                 </div>
               </div>
@@ -74,6 +74,7 @@ const FAQ = () => {
           </div>
         </div>
       </section>
+      <div className="empty-space col-md-b100 col-xs-b70"></div>
     </>
   );
 };

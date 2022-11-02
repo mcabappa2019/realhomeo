@@ -1,4 +1,5 @@
 import React from 'react';
+import NextImageLoader from '../utils/NextImageLoader';
 
 const ELearning = () => {
   return (
@@ -22,8 +23,8 @@ const ELearning = () => {
           {/* <div className="col-lg-3 md-6 text-center">
               <img src="/assets/img/iso-medel.webp" alt="" /> <br />
             </div> */}
-          <div className="col-lg-4 md-6 text-center">
-            <img src="/assets/img/Logo_RH.webp" alt="" />
+          <div className="col-lg-3 md-4 text-center">
+            <NextImageLoader src="/assets/img/Logo_RH.webp" alt="" />
           </div>
           {/* <div className="col-lg-3 md-6 text-center">
               <img src="/assets/img/iso-medel.webp" alt="" />
@@ -47,7 +48,7 @@ const ELearning = () => {
             </span>
             <span className="d-flex justify-content-between my-1">
               <h5>Version:</h5>
-              <h5>English & Hindi</h5>
+              <h5>Bengali,Hindi & English</h5>
             </span>
           </div>
           <div className="col-md-12 col-lg-6 course-info">
@@ -61,12 +62,17 @@ const ELearning = () => {
             </h5>
 
             <div className="tm-about-btn details-btn">
-              <a href="#" className="tm-btn1">
+              <a
+                href="https://uwtoe.courses.store/"
+                target="_blank"
+                rel="noreferrer"
+                className="tm-btn1"
+              >
                 APPLY NOW
               </a>
             </div>
             <div className="iso-img">
-              <img src="/assets/img/iso-medel.webp" alt="" />
+              <NextImageLoader src="/assets/img/iso-medel.webp" alt="" />
             </div>
           </div>
         </div>
@@ -84,7 +90,7 @@ const ELearning = () => {
             </span>
             <span className="d-flex justify-content-between my-1 ">
               <h5>Version:</h5>
-              <h5>English & Hindi</h5>
+              <h5>Bengali,Hindi & English</h5>
             </span>
           </div>
 
@@ -98,12 +104,17 @@ const ELearning = () => {
               Real Homoeopathy.
             </h5>
             <div className="tm-about-btn details-btn">
-              <a href="#" className="tm-btn1">
+              <a
+                href="https://uwtoe.courses.store/"
+                target="_blank"
+                rel="noreferrer"
+                className="tm-btn1"
+              >
                 APPLY NOW
               </a>
             </div>
             <div className="iso-img">
-              <img src="/assets/img/iso-medel.webp" alt="" />
+              <NextImageLoader src="/assets/img/iso-medel.webp" alt="" />
             </div>
           </div>
         </div>
