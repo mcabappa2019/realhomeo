@@ -60,7 +60,7 @@ const Header = () => {
                 <Link href="/">
                   <a className="tm-logo-link">
                     <img
-                      src="/assets/image/logo.webp"
+                      src="/assets/image/logo2.webp"
                       alt=""
                       className="tm-logo"
                     />
