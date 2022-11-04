@@ -6,18 +6,18 @@ const AdvBanner = () => {
   return (
     <section className="highlight">
       <div className=" container text-center  py-5">
-        <div className="h3 text-uppercase">Real Homeopathy</div>
+        <div className="h3 text-uppercase">Real Homoeopathy</div>
         <div className="h1 text-uppercase">e-Learning Program</div>
         <div className="h4 text-uppercase mb-3">Session 2023-2024</div>
         <div className="row justify-content-center mb-4">
           {/* <div className="col-lg-3 md-6 text-center">
-              <img src="/assets/img/iso-medel.webp" alt="" /> <br />
+              <img src="/assets/image/iso-medel.webp" alt="" /> <br />
             </div> */}
           <div className="col-lg-2 md-3 text-center">
-            <NextImageLoader src="/assets/img/Logo_RH.webp" alt="" />
+            <NextImageLoader src="/assets/image/Logo_RH.webp" alt="" />
           </div>
           {/* <div className="col-lg-3 md-6 text-center">
-              <img src="/assets/img/iso-medel.webp" alt="" />
+              <img src="/assets/image/iso-medel.webp" alt="" />
             </div> */}
         </div>
 

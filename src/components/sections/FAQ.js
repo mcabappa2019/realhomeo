@@ -11,7 +11,7 @@ const FAQ = () => {
           <div className="col-lg-6">
             {/* <!-- For Vimeo Video --> */}
             <div className="tm-about-video">
-              <img src="/assets/img/video-bg.webp" alt="" />
+              <img src="/assets/image/video-bg.webp" alt="" />
               <div
                 className="tm-video-button"
                 data-video-id="63636954"
@@ -25,7 +25,7 @@ const FAQ = () => {
             </div>
             {/* <!-- For Youtube Video --> */}
             {/* <!-- <div className="tm-about-video tm-video-button" data-video-id='nImFZRtGeAQ'>
-                  <img src="assets/img/tm-about-video-bg.webp" alt="">
+                  <img src="assets/image/tm-about-video-bg.webp" alt="">
                   <i className="video-icon"></i>
               </div> --> */}
           </div>
@@ -35,7 +35,7 @@ const FAQ = () => {
               <h2 className="accordian-heading">Frequently Asked Questions</h2>
               <div className="accordian">
                 <div className="single-accordian">
-                  <h3 className="accordian-head">What is Real Homeopathy?</h3>
+                  <h3 className="accordian-head">What is Real Homoeopathy?</h3>
                   <div className="accordian-body">
                     in the “GO BACK” procedure of Real Homoeopathic therapeutic
                     system, patients are treated for their present complaints by
@@ -46,11 +46,11 @@ const FAQ = () => {
                 </div>
                 <div className="single-accordian">
                   <h3 className="accordian-head">
-                    How we can learn Real Homeopathy ?
+                    How we can learn Real Homoeopathy ?
                   </h3>
                   <div className="accordian-body">
                     We have training program [e-Learning program] on “Real
-                    Homeopathy” for both medical student & professionals.
+                    Homoeopathy” for both medical student & professionals.
                     Anybody can join this program. For More details, visit{' '}
                     <Link href="/eLearning">
                       <a>eLearning</a>
@@ -59,11 +59,11 @@ const FAQ = () => {
                 </div>
                 <div className="single-accordian">
                   <h3 className="accordian-head">
-                    All critical diseases can be treated by Real Homeopathy?
+                    All critical diseases can be treated by Real Homoeopathy?
                   </h3>
                   <div className="accordian-body">
                     Yes, almost all minor and critical diseases can be treated
-                    by Real Homeopathy treatment system. Such as hypertension,
+                    by Real Homoeopathy treatment system. Such as hypertension,
                     diabetes, chronic renal failure, cardiac problem, liver
                     problem, problem in the brain, genetic disordered,etc.
                   </div>

@@ -11,7 +11,7 @@ const Footer = () => {
                 <h2>Follow Us</h2>
                 <div className="tm-footer-social-list">
                   <a
-                    href="https://www.facebook.com/profile.php?id=100059388729469"
+                    href="https://www.facebook.com/profile.php?id=100063829103833"
                     target="_blank"
                     rel="noreferrer"
                     className="tm-social-btn blue"
@@ -55,11 +55,11 @@ const Footer = () => {
               <div className="tm-footer-hotline d-none d-lg-block">
                 <div className="tm-footer-hotline-in">
                   <div className="tm-phone-icon ">
-                    <img src="/assets/img/iso-9001-2015.webp" alt="" />
+                    <img src="/assets/image/iso-9001-2015.webp" alt="" />
                   </div>
                   <h3>THE INSTITUTE OF</h3>
-                  <h2>REAL HOMEOPATHY</h2>
-                  <span>(91) - 7001220605 | info@tirh.org</span>
+                  <h2 className="text-uppercase">REAL Homoeopathy</h2>
+                  <span>(91) - 9564385818 | info@tirh.org</span>
                 </div>
               </div>
             </div>

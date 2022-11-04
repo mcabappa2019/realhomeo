@@ -3603,11 +3603,11 @@ html {
 
 /*Fun Fact*/
 .tm-fun-fact-wrap {
-    background-image: url(../img/realhomeo-ban-abt.webp);
+    background-image: url(../image/realhomeo-ban-abt-2.webp);
 }
 
 .tm-fun-fact-wrap.students {
-    background-image: url(../img/faq-bg.webp);
+    background-image: url(../image/faq-bg.webp);
     background-color: #f3fbfd;
 }
 
@@ -3644,7 +3644,7 @@ html {
     height: 140px;
     width: 90%;
     margin-left: auto;
-    background-image: url(../img/shap.png);
+    background-image: url(../image/shap.png);
     z-index: 1;
     margin-bottom: 35px;
     background-size: 100% 100%;
@@ -4015,7 +4015,7 @@ html {
 
 /*News Letter*/
 .tm-newsletter {
-    /* background-image: url(../img/newsletter.jpg); */
+    /* background-image: url(../image/newsletter.jpg); */
     background-color: #001F61;
 }
 
@@ -4165,7 +4165,7 @@ html {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    background-image: url(../img/blog-hero-bg.webp);
+    background-image: url(../image/blog-hero-bg.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

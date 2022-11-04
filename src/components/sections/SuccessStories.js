@@ -44,7 +44,7 @@ const SuccessStories = () => {
               <div className="row">
                 {/* <div className="col-lg-6">
                     <div className="tm-dept-img">
-                      <img src="/assets/img/success-story-img.webp" alt="" />
+                      <img src="/assets/image/success-story-img.webp" alt="" />
                     </div>
                   </div> */}
                 {/* <!-- .col --> */}
@@ -56,7 +56,7 @@ const SuccessStories = () => {
                       </div>
                       <div className="tm-about-text">
                         <img
-                          src="/assets/img/success-story-img-2.webp"
+                          src="/assets/image/success-story-img-2.webp"
                           alt=""
                           style={{ float: 'left', marginRight: '15px' }}
                         />

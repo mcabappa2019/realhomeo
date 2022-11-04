@@ -7,12 +7,12 @@ const RHomeo = () => {
         <div className="row d-flex">
           <div className="col-4">
             <div className=" text-center ">
-              <img src="/assets/img/DrShyamalDas.webp" alt="" />
+              <img src="/assets/image/DrShyamalDas.webp" alt="" />
             </div>
           </div>
           <div className="col">
             {/* <div className="banner-content ">
-                <h1>The Real Homeopathy</h1>
+                <h1>The Real Homoeopathy</h1>
                 <p>
                   &#8220; To make perfectly healthy individual or citizen of a
                   family, a society, a country and also of the world - who can

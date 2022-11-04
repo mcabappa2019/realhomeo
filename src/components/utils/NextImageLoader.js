@@ -2,8 +2,8 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
 
-const imgBlurUrl = '/assets/img/blur.webp';
-const brokenImg = '/assets/img/broken-img.webp';
+const imgBlurUrl = '/assets/image/blur.webp';
+const brokenImg = '/assets/image/broken-img.webp';
 
 export const ImgHTML = ({ alt = '...', ...props }) => {
   const [src, setSrc] = useState(props?.src || imgBlurUrl);
@@ -30,7 +30,7 @@ const NextImageLoader = ({
 }) => {
   // src=src.split(siteConfig.CMS_URL)[1]
 
-  //https://cdn.statically.io/img/woocomnext.devraf.com/wp-content/uploads/2016/04/pant.png
+  //https://cdn.statically.io/image/woocomnext.devraf.com/wp-content/uploads/2016/04/pant.png
 
   const [imgError, setImgError] = useState();
 

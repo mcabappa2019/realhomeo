@@ -7,7 +7,7 @@ const ELearning = () => {
       <div className="empty-space col-md-b100 col-xs-b70"></div>
       <div className="tm-section-heading text-center">
         {/* <h2>
-            <b>Real Homeopathy</b>
+            <b>Real Homoeopathy</b>
           </h2> */}
         <h2>
           <b>
@@ -21,13 +21,13 @@ const ELearning = () => {
       <div className="container">
         <div className="row justify-content-center">
           {/* <div className="col-lg-3 md-6 text-center">
-              <img src="/assets/img/iso-medel.webp" alt="" /> <br />
+              <img src="/assets/image/iso-medel.webp" alt="" /> <br />
             </div> */}
           <div className="col-lg-3 md-4 text-center">
-            <NextImageLoader src="/assets/img/Logo_RH.webp" alt="" />
+            <NextImageLoader src="/assets/image/Logo_RH.webp" alt="" />
           </div>
           {/* <div className="col-lg-3 md-6 text-center">
-              <img src="/assets/img/iso-medel.webp" alt="" />
+              <img src="/assets/image/iso-medel.webp" alt="" />
             </div> */}
         </div>
         {/* <!-- .row --> */}
@@ -72,7 +72,7 @@ const ELearning = () => {
               </a>
             </div>
             <div className="iso-img">
-              <NextImageLoader src="/assets/img/iso-medel.webp" alt="" />
+              <NextImageLoader src="/assets/image/iso-medel.webp" alt="" />
             </div>
           </div>
         </div>
@@ -114,7 +114,7 @@ const ELearning = () => {
               </a>
             </div>
             <div className="iso-img">
-              <NextImageLoader src="/assets/img/iso-medel.webp" alt="" />
+              <NextImageLoader src="/assets/image/iso-medel.webp" alt="" />
             </div>
           </div>
         </div>

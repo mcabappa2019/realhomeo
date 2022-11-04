@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="container">
         <div className="slider-text">
           <h1 className="tm-headline letters tm-rotate-text">
-            world best <br /> homeopathy Treatment <br />
+            world best <br /> Homoeopathy Treatment <br />
           </h1>
           <h1 className="my-2">
             <span className="highlight">
@@ -28,7 +28,7 @@ const Hero = () => {
       {/* <!-- .container --> */}
       <div className="tm-hero-slider owl-carousel tm-dots1" id="tm-hero-slider">
         <img
-          src="/assets/img/slider.webp"
+          src="/assets/image/slider.webp"
           alt="slide-01"
           style={{
             width: '100%',
@@ -36,12 +36,12 @@ const Hero = () => {
             objectFit: 'cover',
           }}
         />
-        {/* <img src="/assets/img/slide-02.webp" alt="slide-02" /> */}
-        {/* <img src="/assets/img/slide-03.webp" alt="slide-03" /> */}
+        {/* <img src="/assets/image/slide-02.webp" alt="slide-02" /> */}
+        {/* <img src="/assets/image/slide-03.webp" alt="slide-03" /> */}
       </div>
       <div className="hero-overlay"></div>
       <img
-        src="/assets/img/sweet-shap.webp"
+        src="/assets/image/sweet-shap.webp"
         alt="Sweet Shap"
         className="sweet-shap"
       />

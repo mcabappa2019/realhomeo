@@ -16,7 +16,7 @@ const Header = () => {
             >
               <div className="tm-footer-social-list justify-content-end ms-5 w-25 gap-3">
                 <a
-                  href="https://www.facebook.com/profile.php?id=100059388729469"
+                  href="https://www.facebook.com/profile.php?id=100063829103833"
                   target="_blank"
                   rel="noreferrer"
                   className="tm-social-btn "
@@ -45,8 +45,7 @@ const Header = () => {
               </div>
               <div>
                 <a href="#">
-                  <i className="fa fa-phone"></i>(91) - 8617640395 | (91) -
-                  7001220605
+                  <i className="fa fa-phone"></i>(91) - 9564385818
                 </a>
                 <a href="#">
                   <i className="fa fa-envelope"></i>info@tirh.org
@@ -61,7 +60,7 @@ const Header = () => {
                 <Link href="/">
                   <a className="tm-logo-link">
                     <img
-                      src="/assets/img/logo.webp"
+                      src="/assets/image/logo.webp"
                       alt=""
                       className="tm-logo"
                     />

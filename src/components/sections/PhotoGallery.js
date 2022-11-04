@@ -28,7 +28,7 @@ const PhotoGallery = ({ imgCount = 6, homePage = false }) => {
                   onClick={() => setCurImg(i + 1)}
                 >
                   <NextImageLoader
-                    src={`/assets/gallery/${i + 1}.webp`}
+                    src={`/assets/photo_gallery/${i + 1}.webp`}
                     alt={`The Institute of Real Homeo`}
                   />
                 </div>

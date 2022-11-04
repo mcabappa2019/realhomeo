@@ -7,7 +7,7 @@ const Appointment = () => {
       <div className="empty-space col-md-b100 col-xs-b70"></div>
       <section className="tm-relative tm-gray-bg">
         <div className="tm-half-section-bg right">
-          <img src="/assets/img/appointment-bg.webp" alt="about hafl bg" />
+          <img src="/assets/image/appointment-bg.webp" alt="about hafl bg" />
         </div>
         <div className="container">
           <div className="row">

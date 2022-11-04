@@ -21,7 +21,7 @@ const News = ({ homePage = false }) => {
               <div className="tm-post tm-style1">
                 <div className="tm-post-thumb">
                   <a href="#" className="tm-link-block">
-                    <img src="/assets/img/blog-01.webp" alt="blog-01" />
+                    <img src="/assets/image/blog-01.webp" alt="blog-01" />
                     <div className="tm-blog-hover">
                       <span className="tm-blog-shap"></span>
                       <i className="fa fa-link"></i>
@@ -71,7 +71,7 @@ const News = ({ homePage = false }) => {
               <div className="tm-post tm-style2">
                 <div className="tm-post-thumb">
                   <a href="#" className="tm-link-block">
-                    <img src="/assets/img/blog-02.webp" alt="blog-02" />
+                    <img src="/assets/image/blog-02.webp" alt="blog-02" />
                     <div className="tm-blog-hover small">
                       <span className="tm-blog-shap"></span>
                       <i className="fa fa-link"></i>
@@ -109,7 +109,7 @@ const News = ({ homePage = false }) => {
               <div className="tm-post tm-style2">
                 <div className="tm-post-thumb">
                   <a href="#" className="tm-link-block">
-                    <img src="/assets/img/blog-03.webp" alt="blog-03" />
+                    <img src="/assets/image/blog-03.webp" alt="blog-03" />
                     <div className="tm-blog-hover small">
                       <span className="tm-blog-shap"></span>
                       <i className="fa fa-link"></i>
@@ -147,7 +147,7 @@ const News = ({ homePage = false }) => {
               <div className="tm-post tm-style2">
                 <div className="tm-post-thumb">
                   <a href="#" className="tm-link-block">
-                    <img src="/assets/img/blog-04.webp" alt="blog-04" />
+                    <img src="/assets/image/blog-04.webp" alt="blog-04" />
                     <div className="tm-blog-hover small">
                       <span className="tm-blog-shap"></span>
                       <i className="fa fa-link"></i>
