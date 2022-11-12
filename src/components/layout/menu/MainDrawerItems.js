@@ -5,68 +5,44 @@ const MainDrawerItems = () => {
   return (
     <div className="main-drawer">
       <ul className="drawer">
-        <li className="menu-item">
+        <li className="menu-item ">
           <Link href="/">
             <a className="nav-link tm-smooth-move">HOME</a>
           </Link>
         </li>
         <li className="menu-item">
-          <a href="#about" className="nav-link tm-smooth-move">
-            ABOUT
-          </a>
+          <Link href="/aboutUs">
+            <a className="nav-link tm-smooth-move">ABOUT</a>
+          </Link>
         </li>
 
         <li className="menu-item">
-          <a href="#doctor" className="nav-link tm-smooth-move">
-            COURSES
-          </a>
+          <Link href="/contactUs">
+            <a className="nav-link tm-smooth-move">CONTACT</a>
+          </Link>
         </li>
+
         <li className="menu-item">
-          <a href="#gallery" className="nav-link tm-smooth-move">
-            GALLERY
-          </a>
+          <Link href="/gallery">
+            <a className="nav-link tm-smooth-move">GALLERY</a>
+          </Link>
         </li>
 
         <li className="menu-item menu-item-has-children">
-          <a href="#blog" className="nav-link tm-smooth-move">
-            NEWS & ARTICLES
-          </a>
-          {/* <ul>
-                    <li className="menu-item">
-                      <a href="blog-right-sidebar.html">Blog Right Sidebar</a>
-                    </li>
-                    <li className="menu-item">
-                      <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
-                    </li>
-                    <li className="menu-item">
-                      <a href="blog-full-width.html">Blog Full Width</a>
-                    </li>
-                    <li className="menu-item">
-                      <a href="blog-details-right-sidebar.html">
-                        Single Blog Image Post
-                      </a>
-                    </li>
-                    <li className="menu-item">
-                      <a href="blog-details-left-sidebar.html">
-                        Single Blog Slider Post
-                      </a>
-                    </li>
-                    <li className="menu-item">
-                      <a href="blog-details-full-width.html">
-                        Single Blog Video Post
-                      </a>
-                    </li>
-                  </ul> */}
+          <Link href="/newsArticle">
+            <a className="nav-link tm-smooth-move">NEWS & ARTICLES</a>
+          </Link>
+        </li>
+
+        <li className="menu-item">
+          <Link href="/eLearning">
+            <a className="nav-link tm-smooth-move">E-LEARNING</a>
+          </Link>
         </li>
         <li className="menu-item">
-          <a href="#contact" className="nav-link tm-smooth-move">
-            CONTACT
-          </a>
-        </li>
-        <li className="menu-item">
-          <a href="#appointment" className="nav-link tm-smooth-move">
-            E-CLINIC
-          </a>
+          <Link href="/eClinic">
+            <a className="nav-link tm-smooth-move">E-CLINIC</a>
+          </Link>
         </li>
       </ul>
     </div>
