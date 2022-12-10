@@ -86,7 +86,7 @@ const Contact = () => {
               <div className="tm-single-contact">
                 <i className="fa fa-whatsapp"></i> <h3>Whatsapp</h3>
                 <p>
-                  91-861-764-0395 <br /> 91-956-438-5818 <br /> 91-700-122-0605
+                  91-956-438-5818 <br /> 91-700-122-0605
                 </p>
               </div>
               <div className="empty-space col-xs-b25"></div>
@@ -94,6 +94,8 @@ const Contact = () => {
                 <i className="fa fa-envelope"></i> <h3>Email</h3>
                 <p>
                   info@tirh.com <br />
+                  care.tirh@gmail.com <br />
+                  aragyavaban@gmail.com <br />
                 </p>
               </div>
               <div className="empty-space col-xs-b25"></div>
