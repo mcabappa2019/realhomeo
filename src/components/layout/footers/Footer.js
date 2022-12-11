@@ -59,7 +59,7 @@ const Footer = () => {
                   </div>
                   <h3>THE INSTITUTE OF</h3>
                   <h2 className="text-uppercase">REAL Homoeopathy</h2>
-                  <span>(91) - 9564385818 | info@tirh.org</span>
+                  <span>(91) - 9564385818 | care@tirh.org</span>
                 </div>
               </div>
             </div>

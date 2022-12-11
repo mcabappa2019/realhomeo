@@ -48,7 +48,7 @@ const Header = () => {
                   <i className="fa fa-phone"></i>(91) - 9564385818
                 </a>
                 <a href="#">
-                  <i className="fa fa-envelope"></i>info@tirh.org
+                  <i className="fa fa-envelope"></i>care@tirh.org
                 </a>
               </div>
             </div>
