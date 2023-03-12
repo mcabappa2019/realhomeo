@@ -40,8 +40,8 @@ const MainDrawerItems = () => {
           </Link>
         </li>
         <li className="menu-item">
-          <Link href="/eClinic">
-            <a className="nav-link tm-smooth-move">E-CLINIC</a>
+          <Link href="/supportUs">
+            <a className="nav-link tm-smooth-move">SUPPORT US</a>
           </Link>
         </li>
       </ul>

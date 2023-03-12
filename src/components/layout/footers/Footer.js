@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="tm-overflow-hidden">
+    <footer className="tm-overflow-hidden" style={{ marginTop: '200px' }}>
       <div className="tm-gray-bg">
         <div className="container">
           <div className="row">

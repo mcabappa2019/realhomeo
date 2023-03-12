@@ -9,6 +9,7 @@ import RHomeo from '../src/components/sections/RHomeo';
 import Statistics from '../src/components/sections/Statistics';
 import SuccessStories from '../src/components/sections/SuccessStories';
 import ExpertsSays from '../src/components/sections/ExpertsSays';
+import DonateBannerSection from '../src/components/sections/DonateBannerSection';
 
 const index = () => {
   return (
@@ -18,11 +19,12 @@ const index = () => {
       <SuccessStories />
       <Statistics />
       <ExpertsSays />
-      <AdvBanner />
+      <DonateBannerSection />
       <PhotoGallery homePage={true} imgCount={6} />
 
       {/* <News homePage={true} /> */}
       <FAQ />
+      <AdvBanner />
     </>
   );
 };

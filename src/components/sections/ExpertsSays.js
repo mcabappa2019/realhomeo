@@ -28,7 +28,7 @@ const ExpertsSays = () => {
                 </div>
                 <div className="tm-member-meta tm-gray-bg text-center w-100 ">
                   <h3 className="tm-member-name">
-                    <a href="#">Prof. Dr. Achal Singhal</a>
+                    <a href="#">Prof. Dr. Achala Singhal</a>
                   </h3>
                   <span className="tm-member-speciality">
                     MD DM Cardiologist, USA

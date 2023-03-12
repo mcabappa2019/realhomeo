@@ -7,7 +7,7 @@ const PhotoGallery = ({ imgCount = 6, homePage = false }) => {
   const [curImg, setCurImg] = useState();
 
   return (
-    <section id=" gallery">
+    <section id="gallery">
       <div className="empty-space col-md-b100 col-xs-b70"></div>
       <div className="tm-section-heading text-center">
         <h2>
