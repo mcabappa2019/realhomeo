@@ -14,18 +14,15 @@ const supportUs = () => {
         >
           <h1 className="text-white">Donate Us</h1>
         </div>
-        <div className="col-md-12 col-lg-8  " style={{ padding: '50px 100px' }}>
-          <div className="mb-4" style={{ backgroundColor: '#fff' }}>
+        <div className="col-md-12 col-lg-8 p-5 ">
+          <div className="mb-4 px-lg-5 mx-lg-5">
             <NextImageLoader src="/assets/image/UPI.png" />
           </div>
-          <div
-            className="mb-4"
-            style={{ backgroundColor: '#fff', marginTop: '100px' }}
-          >
+          <br />
+          <br />
+
+          <div className="mb-4 px-lg-5 mx-lg-5">
             <NextImageLoader src="/assets/image/SBI ACCOUNT.png" />
-          </div>
-          <div className="mb-4" style={{ backgroundColor: '#fff' }}>
-            <NextImageLoader src="/assets/image/HDFC ACCOUNT.png" />
           </div>
         </div>
       </div>
