@@ -84,18 +84,6 @@ const Header = () => {
                     </Link>
                   </li>
 
-                  <li className="menu-item">
-                    <Link href="/contactUs">
-                      <a className="nav-link tm-smooth-move">CONTACT</a>
-                    </Link>
-                  </li>
-
-                  <li className="menu-item">
-                    <Link href="/gallery">
-                      <a className="nav-link tm-smooth-move">GALLERY</a>
-                    </Link>
-                  </li>
-
                   <li className="menu-item menu-item-has-children">
                     <Link href="/newsArticle">
                       <a className="nav-link tm-smooth-move">NEWS & ARTICLES</a>
@@ -134,8 +122,13 @@ const Header = () => {
                     </Link>
                   </li>
                   <li className="menu-item">
-                    <Link href="/supportUs">
-                      <a className="nav-link tm-smooth-move">SUPPORT US</a>
+                    <Link href="/eClinic">
+                      <a className="nav-link tm-smooth-move">E-CLINIC</a>
+                    </Link>
+                  </li>
+                  <li className="menu-item">
+                    <Link href="/eConsult">
+                      <a className="nav-link tm-smooth-move">E-CONSULTANCY</a>
                     </Link>
                   </li>
                 </ul>

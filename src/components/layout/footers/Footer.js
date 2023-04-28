@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Footer = () => {
@@ -47,6 +48,48 @@ const Footer = () => {
         <div className="container">
           <div className="row row-sm-reverce">
             <div className="col-md-6 col-lg-6">
+              {/* <span>Quick Links</span> */}
+
+              <hr />
+              <div className="row  footer-menu d-flex">
+                <div className="col-4">
+                  <Link href="/">
+                    <a>HOME</a>
+                  </Link>
+                  <Link href="/aboutUs">
+                    <a>About Us</a>
+                  </Link>
+                  <Link href="/contactUs">
+                    <a>Contact Us</a>
+                  </Link>
+                  <Link href="/supportUs">
+                    <a>Support Us</a>
+                  </Link>
+                </div>
+                <div className=" col-4">
+                  <Link href="/eLearning">
+                    <a>E-LEARNING</a>
+                  </Link>
+                  <Link href="/eClinic">
+                    <a>E-CLINIC</a>
+                  </Link>
+                  <Link href="/eConsult">
+                    <a>e-consultancy </a>
+                  </Link>
+                </div>
+                <div className=" col-4">
+                  <Link href="/gallery">
+                    <a>GALLERY</a>
+                  </Link>
+                  <Link href="/newsArticle">
+                    <a>NEWS & ARTICLES</a>
+                  </Link>
+                  {/* <Link href="/">
+                    <a>Contact Us</a>
+                  </Link> */}
+                </div>
+              </div>
+              <hr />
               <p className="tm-copyright">
                 Copyright © 2022 TIRH | Designed by bdsProf.{' '}
               </p>
