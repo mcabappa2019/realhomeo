@@ -4,7 +4,7 @@ const RHomeo = () => {
   return (
     <section className="tm-fun-fact-wrap tm-bg">
       <div className="container">
-        <div className="row d-flex">
+        <div className="row d-flex sd-image">
           <div className="col-4">
             <div className=" text-center ">
               <img src="/assets/image/DrShyamalDas.webp" alt="" />

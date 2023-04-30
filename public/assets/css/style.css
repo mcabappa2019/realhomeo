@@ -1953,7 +1953,7 @@ html {
 --------------------------------------------------------------*/
 /*Hero*/
 .hero {
-    height: 600px;
+    /* height: 600px; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5673,6 +5673,12 @@ blockquote small span {
     font-size: 20px;
 }
 
+.highlight {
+    background-color: #002856;
+    padding: 0px 10px;
+    color: #fff;
+}
+
 /*--------------------------------------------------------------
 8. Responsive
 --------------------------------------------------------------*/
@@ -5924,7 +5930,7 @@ blockquote small span {
 
     .tm-section-heading h2 {
         font-size: 30px;
-        line-height: 30px;
+        line-height: 34px;
         margin-bottom: 6px;
     }
 
@@ -6049,9 +6055,9 @@ blockquote small span {
 
 @media screen and (max-width: 767px) {
     .slider-text h1 {
-        font-size: 30px;
-        line-height: 44px;
-        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 800;
     }
 
     .slider-text p {
@@ -6061,7 +6067,7 @@ blockquote small span {
 
     .tm-btn1 {
         padding: 7px 20px;
-        min-width: 140px;
+        min-width: 100px;
         font-size: 14px;
     }
 
@@ -6188,6 +6194,36 @@ blockquote small span {
         margin-top: 30px;
     }
 
+    .tm-section-heading h2 {
+        font-size: 18px;
+        line-height: 20px;
+        margin-bottom: 6px;
+    }
+
+    .tm-section-heading h3 {
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 6px;
+    }
+
+    .tm-fun-fact-wrap {
+        background-image: url(../image/realhomeo-ban-abt-2.webp);
+        height: 95px;
+        background-position-x: 70%;
+    }
+
+    .tm-fun-fact-wrap .sd-image {
+        position: absolute;
+        top: -24px;
+        z-index: 9;
+    }
+
+    .highlight {
+        background-color: #002856;
+        padding: 0px 4px;
+        color: #fff;
+    }
+
     #tm-preloader-in {
         -webkit-transform: scale(0.6);
         -ms-transform: scale(0.6);
@@ -6216,6 +6252,10 @@ blockquote small span {
 @media screen and (max-width: 575px) {
     .hero {
         height: 445px;
+    }
+
+    .tm-site-branding {
+        width: 240px;
     }
 
     .slider-text p br,
@@ -6275,7 +6315,7 @@ blockquote small span {
     }
 
     .hero .container {
-        padding-top: 65px;
+        padding-top: 1px;
     }
 
     .tm-about-video .tm-video-button {
@@ -6941,11 +6981,7 @@ body.rtl {
     letter-spacing: 2px;
 }
 
-.highlight {
-    background-color: #002856;
-    padding: 0px 10px;
-    color: #fff;
-}
+
 
 .banner-content p {
     color: #fff;

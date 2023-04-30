@@ -52,7 +52,7 @@ const Footer = () => {
 
               <hr />
               <div className="row  footer-menu d-flex">
-                <div className="col-4">
+                <div className="col-6 col-lg-4">
                   <Link href="/">
                     <a>HOME</a>
                   </Link>
@@ -66,7 +66,7 @@ const Footer = () => {
                     <a>Support Us</a>
                   </Link>
                 </div>
-                <div className=" col-4">
+                <div className=" col-6 col-lg-4">
                   <Link href="/eLearning">
                     <a>E-LEARNING</a>
                   </Link>
@@ -77,7 +77,7 @@ const Footer = () => {
                     <a>e-consultancy </a>
                   </Link>
                 </div>
-                <div className=" col-4">
+                <div className=" col-6 col-lg-4">
                   <Link href="/gallery">
                     <a>GALLERY</a>
                   </Link>

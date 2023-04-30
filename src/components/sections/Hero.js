@@ -40,11 +40,11 @@ const Hero = () => {
         {/* <img src="/assets/image/slide-03.webp" alt="slide-03" /> */}
       </div>
       <div className="hero-overlay"></div>
-      <img
+      {/* <img
         src="/assets/image/sweet-shap.webp"
         alt="Sweet Shap"
         className="sweet-shap"
-      />
+      /> */}
     </section>
   );
 };

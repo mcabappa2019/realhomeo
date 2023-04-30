@@ -163,7 +163,7 @@ const EclinicApplicationForm = ({ setDisplayForm }) => {
                     value={address}
                     onChange={(e) => setAddress(e.target.value)}
                   ></textarea>
-                  <label>Full Address * ( Minimum 20 Character )</label>
+                  <label>Full Address * ( Min 20 Char )</label>
                 </div>
 
                 <div className="empty-space col-xs-b10"></div>
