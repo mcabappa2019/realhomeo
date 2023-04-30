@@ -8,6 +8,7 @@ const EclinicApplicationForm = ({ setDisplayForm }) => {
   const [phone, setPhone] = useState('');
   const [address, setAddress] = useState('');
   const [tirhRegId, setTirhRegId] = useState('');
+
   const [resp, setResp] = useState(null);
   const [sending, setSending] = useState(false);
 
@@ -18,13 +19,13 @@ const EclinicApplicationForm = ({ setDisplayForm }) => {
     setAddress('');
   };
 
-  const submitContact = async () => {
+  const submitRequest = async () => {
     try {
       if (
         !validator.isEmail(mailId) ||
         validator.isEmpty(name) ||
         validator.isEmpty(address) ||
-        msg.length < 20 ||
+        address.length < 20 ||
         name.length < 5 ||
         phone.length > 12
       ) {
@@ -38,7 +39,7 @@ const EclinicApplicationForm = ({ setDisplayForm }) => {
         address: address,
         tirhRegId: tirhRegId,
       };
-      await fetch('/api/emails/appointment', {
+      await fetch('/api/emails/eclinicApplication', {
         method: 'POST',
         headers: { 'content-type': 'application/json' },
         body: JSON.stringify(data),
@@ -182,7 +183,7 @@ const EclinicApplicationForm = ({ setDisplayForm }) => {
                       type="button"
                       id="submit"
                       name="submit"
-                      // onClick={submitContact}
+                      onClick={submitRequest}
                       disabled={sending}
                     >
                       <span>SEND REQUEST</span>

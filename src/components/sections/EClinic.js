@@ -15,19 +15,17 @@ const EClinicSection = () => {
           </h2> */}
         <h2 className="mb-3">
           <b>
-            <span className="highlight ">REAL HOMOEO e-Clinic</span>
+            <span className="highlight ">TIRH e-Clinic ( ARAGYA VABAN )</span>
           </b>
         </h2>
         <h3>
-          <b>
-            UNDER <span className="highlight">ARAGYA VABAN</span> (TIRH E-CLINIC
-            MANAGEMENT SYSTEM)
-          </b>
+          UNDER -{' '}
+          <span className="highlight ">TIRH E-CLINIC MANAGEMENT SYSTEM</span>
         </h3>
         <div className=" text-center text-uppercase">
           <b>
-            An initiative from TIRH to reach people and serve Real Homoeopathy
-            Treatments System
+            An initiative from TIRH to reach people and serve Real Homoeopathic
+            Treatment
           </b>
         </div>
 

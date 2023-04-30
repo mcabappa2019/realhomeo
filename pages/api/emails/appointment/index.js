@@ -23,7 +23,8 @@ export default function handler(req, res) {
 
     const mailOptions = {
       from: `${'TIRH Appointment Request'}<support@tirh.org>`,
-      to: 'info@tirh.org',
+      to: 'care.tirh@gmail.com',
+      // to: 'andrbappa@gmail.com',
       subject: 'Appointment Request',
       text: mailBody,
       // html: mailBody.replace(/\r\n/g, '</br>'),

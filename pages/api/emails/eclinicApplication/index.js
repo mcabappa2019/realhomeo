@@ -4,7 +4,7 @@ const nodemailer = require('nodemailer');
 
 export default function handler(req, res) {
   try {
-    const { email, message, name, subject } = req.body;
+    const { email, phone, name, address, tirhRegId } = req.body;
 
     const transporter = nodemailer.createTransport({
       service: 'gmail',
@@ -16,15 +16,17 @@ export default function handler(req, res) {
 
     const mailBody = `
   Name : ${name}\r\n
+  Address : ${address}\r\n
   Email : ${email}\r\n
-  Message : ${message}\r\n
+  Phone No : ${phone}\r\n
+  TIRH REG. NO : ${tirhRegId}\r\n
   `;
 
     const mailOptions = {
-      from: `${'TIRH Contact Us'}<support@tirh.org>`,
+      from: `${'TIRH eClinic Application'}<support@tirh.org>`,
       to: 'care.tirh@gmail.com',
       // to: 'andrbappa@gmail.com',
-      subject: subject,
+      subject: 'eClinic Application Request',
       text: mailBody,
       // html: mailBody.replace(/\r\n/g, '</br>'),
     };
