@@ -14,7 +14,7 @@ const Header = () => {
               className="container tm-header-info d-flex justify-content-between"
               style={{ zIndex: '3' }}
             >
-              <div className="tm-footer-social-list justify-content-end ms-5 w-25 gap-3">
+              <div className="tm-footer-social-list justify-content-end w-25 gap-3">
                 <a
                   href="https://www.facebook.com/profile.php?id=100063829103833"
                   target="_blank"

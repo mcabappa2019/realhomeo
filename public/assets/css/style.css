@@ -1655,7 +1655,7 @@ html {
 
 /*Site Branding*/
 .tm-site-branding {
-    width: 400px;
+    width: 350px;
     position: relative;
     height: 75px;
     display: -webkit-box;
@@ -5723,6 +5723,10 @@ blockquote small span {
 
     .tm-primary-nav .tm-primary-nav-list>.menu-item {
         margin-right: 15px;
+    }
+
+    .tm-primary-nav .menu-item>a {
+        font-size: 13.25px;
     }
 
     .tm-shedule-wrap {
