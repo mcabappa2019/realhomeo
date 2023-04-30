@@ -163,7 +163,7 @@ const EclinicApplicationForm = ({ setDisplayForm }) => {
                     value={address}
                     onChange={(e) => setAddress(e.target.value)}
                   ></textarea>
-                  <label>Full Address * (Minimum 20 Character)</label>
+                  <label>Full Address * ( Minimum 20 Character )</label>
                 </div>
 
                 <div className="empty-space col-xs-b10"></div>
@@ -200,15 +200,13 @@ const EclinicApplicationForm = ({ setDisplayForm }) => {
                 </div>
 
                 {resp && (
-                  <span className="h6 py-4 ">
-                    Thanks, We will contact you soon.
-                  </span>
-                )}
-                {/* <div style={{ backgroundColor: '#fff', height: '30px' }}>
-                  <div className="py-4 px-4" style={{ color: '#2caee2' }}>
+                  <div
+                    className="h6 py-4 tm-form-field"
+                    style={{ color: '#fff' }}
+                  >
                     Thanks, We will contact you soon.
                   </div>
-                </div> */}
+                )}
               </form>
 
               <div className="empty-space col-md-b60 col-xs-b70"></div>

@@ -131,6 +131,11 @@ const Header = () => {
                       <a className="nav-link tm-smooth-move">E-CONSULTANCY</a>
                     </Link>
                   </li>
+                  <li className="menu-item">
+                    <Link href="/supportUs">
+                      <a className="nav-link tm-smooth-move">SUPPORT US</a>
+                    </Link>
+                  </li>
                 </ul>
               </nav>
               <div
