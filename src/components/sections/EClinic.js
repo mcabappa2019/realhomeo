@@ -19,7 +19,6 @@ const EClinicSection = () => {
           </b>
         </h2>
         <h3>
-          UNDER -{' '}
           <span className="highlight ">TIRH E-CLINIC MANAGEMENT SYSTEM</span>
         </h3>
         <div className=" text-center text-uppercase">
